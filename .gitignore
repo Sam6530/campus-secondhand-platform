@@ -1,0 +1,9 @@
+# Local editor and runtime files
+~$*
+*.tmp
+__pycache__/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
