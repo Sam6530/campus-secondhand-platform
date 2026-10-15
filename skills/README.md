@@ -4,10 +4,10 @@
 
 | 成员 | 入口 | 主要职责 |
 |---|---|---|
-| a | [req-a-spec/SKILL.md](req-a-spec/SKILL.md) | 业务资料与需求定义、规格持续更新、决定记录和全文统合 |
-| b | [req-b-model/SKILL.md](req-b-model/SKILL.md) | 面向对象分析、模型与解释、状态和职责覆盖 |
-| c | [req-c-prototype/SKILL.md](req-c-prototype/SKILL.md) | 交互与原型验证、需求分析质量验证报告、总证据索引和交付清单 |
-| d | [req-d-verify/SKILL.md](req-d-verify/SKILL.md) | 独立多角色审查、问题复核、AI智能体使用验证报告，独立复核质量报告 |
+| a | [req-a-spec/SKILL.md](req-a-spec/SKILL.md) | 项目概述与用户需求，来源和业务澄清；不兜底全组统稿 |
+| b | [req-b-model/SKILL.md](req-b-model/SKILL.md) | 领域与数据、规则与权限、行为与状态及配套模型 |
+| c | [req-c-prototype/SKILL.md](req-c-prototype/SKILL.md) | 交互接口、质量与验收、原型、质量报告、总证据索引及统一交付 |
+| d | [req-d-verify/SKILL.md](req-d-verify/SKILL.md) | 基线与人机协作、独立审查复核及AI报告；本人章节交叉复核 |
 
 ## 使用
 
