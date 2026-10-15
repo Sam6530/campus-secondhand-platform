@@ -5,22 +5,25 @@
 ## 初始化内容
 
 ```
-skills/
-  共同大纲.md
-  协作协议.md
-  README.md
-  req-a-spec/SKILL.md
-  req-b-model/SKILL.md
-  req-c-prototype/SKILL.md
-  req-d-verify/SKILL.md
-docs/
-  文档格式规范.md
-  提交要求对照.md
+initialization/
+  skills/
+    共同大纲.md
+    协作协议.md
+    README.md
+    req-a-spec/SKILL.md
+    req-b-model/SKILL.md
+    req-c-prototype/SKILL.md
+    req-d-verify/SKILL.md
+  docs/
+    文档格式规范.md
+    提交要求对照.md
+documents/
+attachments/
 ```
 
 ## 开始工作
 
-1. 拉取仓库，所有成员阅读共同大纲、协作协议、格式规范和提交要求对照。
+1. 拉取仓库，所有成员阅读`initialization/`中的[共同大纲](initialization/skills/共同大纲.md)、[协作协议](initialization/skills/协作协议.md)、[格式规范](initialization/docs/文档格式规范.md)和[提交要求对照](initialization/docs/提交要求对照.md)。
 2. 共同讨论章节、图表、篇幅及职责，记录实际决定和版本。
 3. 各自用对应skill初始化agent，按a→b→c→d交接逐步完善文档；发现问题回交负责人修改，再独立复核。
 4. 使用Git分支、提交和合并同步共同版本；具体约定见协作协议。
