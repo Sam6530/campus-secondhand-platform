@@ -1,10 +1,15 @@
 {
-  "version": "A-business-v2-2026-10-20",
+  "version": "A-business-v2-2026-10-20-suggestions",
   "date": "2026-10-20",
   "main": "366b8b5b18d375ea0f4badec751461ec63422519",
-  "input_sha256": "b72a0c4df4f579cd7a07b6322b3eeee47c3937ed626f1559e2170683dae1cfcb",
+  "input_sha256": "569a2771066ba61eb5c334144df42f504c40d355a9147a20b5c35d1439240d36",
   "pages": 20,
   "files": [
+    {
+      "path": "attachments/A/PR回复.md",
+      "bytes": 2618,
+      "sha256": "513fb8d7d9d5086e13222d72adae308d654dc371a20c187dbff6e8c462325129"
+    },
     {
       "path": "attachments/A/依据/学生需求分析与AI智能体使用验证报告.md",
       "bytes": 33009,
@@ -17,18 +22,18 @@
     },
     {
       "path": "attachments/A/依据与规则核验记录.md",
-      "bytes": 8004,
-      "sha256": "f9dbe77c947dd97e4dfc335b6ae1b5db17c2803b349b928d434ed2c84370ed24"
+      "bytes": 9328,
+      "sha256": "f6c6a3c656961796d8bd0974bdd36bbc38e7aa40cf9963324b790ce4f4f42913"
     },
     {
       "path": "attachments/A/修订说明与审核交接.md",
-      "bytes": 4992,
-      "sha256": "0c091bf8877abfef5ea0bee3cf0a1c64c05a02fe39cd6cca1538bf6777a4ba84"
+      "bytes": 5275,
+      "sha256": "7dce985d1c36b5ade3434a6fce2b626812aa63cd6354a34e02726f8d9b87d12b"
     },
     {
       "path": "attachments/A/关键AI交互与人工决定.md",
-      "bytes": 4905,
-      "sha256": "62b9106804f539fc7dec6ef2cec271783d867d395306aeb1561ede9b87d90be5"
+      "bytes": 6242,
+      "sha256": "65bb57da06df246a81da6b52321440433c339973a2062c25007a286d2a2cb97e"
     },
     {
       "path": "attachments/A/图源与导出/图1-1_系统上下文图.png",
@@ -67,29 +72,29 @@
     },
     {
       "path": "attachments/A/自查记录.md",
-      "bytes": 2499,
-      "sha256": "9e7009e9772476faa0a6dc27347ccec6604973a02b10d1cd84819d095cbda40f"
+      "bytes": 2946,
+      "sha256": "55d3822ae465ed08c9696486ff1005565aeb8f0f7e0d2153500d320df413d555"
     },
     {
       "path": "attachments/A/附件索引.md",
-      "bytes": 2379,
-      "sha256": "5f1701de2e32de6ed9076b10e1d3a91b29e813a1b5d4a381a5caa956a882d6f8"
+      "bytes": 2675,
+      "sha256": "a00d38b987a802553e0c50f0279fc55f5c5c99b8ba5c84e530ad546265825d19"
     },
     {
-      "path": "documents/校园二手交易与物品流转平台需求规格说明书_A角色_业务修订版.docx",
-      "bytes": 611207,
-      "sha256": "569a2771066ba61eb5c334144df42f504c40d355a9147a20b5c35d1439240d36"
+      "path": "documents/校园二手交易与物品流转平台需求规格说明书.docx",
+      "bytes": 612075,
+      "sha256": "e6263da820a25af70f5c66ea4d1345c1449258eaa51837649c8479a346466580"
     },
     {
-      "path": "documents/校园二手交易与物品流转平台需求规格说明书_A角色_业务修订版.md",
-      "bytes": 30747,
-      "sha256": "31bb46f99acdea8d4a3adc86f9f047d23cd00df705e4e8daf63d762eb43482a9"
+      "path": "documents/校园二手交易与物品流转平台需求规格说明书.md",
+      "bytes": 32293,
+      "sha256": "4acbd2ef266a6ee3e4f757cadb571beafefa7e7ab0090eb49d95b13cabac818a"
     },
     {
-      "path": "documents/校园二手交易与物品流转平台需求规格说明书_A角色_业务修订版.pdf",
-      "bytes": 961363,
-      "sha256": "06e23959eb0acfb6e0a4136476b2c771678d7687b2ae48d8ee455da693c07b5a"
+      "path": "documents/校园二手交易与物品流转平台需求规格说明书.pdf",
+      "bytes": 968254,
+      "sha256": "f21ae125746ead890625eaa1ec854e7f0d46418be3ad1a1a299bfa52615af71a"
     }
   ],
-  "note": "清单不包含自身哈希；包仅含A材料，不覆盖仓库初始化目录。"
+  "note": "清单不包含自身哈希；documents仅保留统一文件名，更新原PR #2，不覆盖初始化目录。"
 }
