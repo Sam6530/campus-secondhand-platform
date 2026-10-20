@@ -6,8 +6,8 @@
   "files": [
     {
       "path": "documents/校园二手交易与物品流转平台需求规格说明书.md",
-      "bytes": 70878,
-      "sha256": "2a95482fdbaa531eead3848875dde4c4612691cb07a158324f036a01e4301b56"
+      "bytes": 71439,
+      "sha256": "8dc5a87e822a148d0a4a9124b3d37c956a22a4500d1fd7699f880230619e5863"
     },
     {
       "path": "attachments/B/附件索引.md",
@@ -16,13 +16,13 @@
     },
     {
       "path": "attachments/B/自查记录.md",
-      "bytes": 3026,
-      "sha256": "440ace82513eab47577c4ded9411fd013636559df49f508fd01bb06ba1a3a641"
+      "bytes": 3261,
+      "sha256": "1c73fc54f7c350986a5c13e695fb5fb56f027354f2ab1b52653a2ca116ac6e56"
     },
     {
       "path": "attachments/B/修订说明与审核交接.md",
-      "bytes": 4832,
-      "sha256": "65cdf4503e58fb0cf931267a107b3efb2adec8b2e0bb590d402fb04b959f3a79"
+      "bytes": 5753,
+      "sha256": "8155d53b1e622b37ec034b325f322399ac51e60cede438d22887740f3282e230"
     },
     {
       "path": "attachments/B/关键AI交互与人工决定.md",
@@ -36,8 +36,8 @@
     },
     {
       "path": "attachments/B/模型说明与状态转换核对.md",
-      "bytes": 7396,
-      "sha256": "59715923d9a59a65278fee1665942a40a9babe5dfcaa9910e4a6bd8e3d803cd8"
+      "bytes": 7696,
+      "sha256": "b62e55e5168bfa6810d6ab1c833dfe70203d117b50b7ed1876b7a1199cfb372e"
     },
     {
       "path": "attachments/B/依据/输入版本与引用说明.md",
@@ -51,8 +51,8 @@
     },
     {
       "path": "attachments/B/图源与导出/生成图3-1领域类图.py",
-      "bytes": 6196,
-      "sha256": "166895f7b8411caff72f25fa8935f197268782a5d1d6a42db3931ff0806120a0"
+      "bytes": 6548,
+      "sha256": "38858356b2257ec44f20fe07b1c92b19b33ca361a9c939e508c0deb8c5cb4d03"
     },
     {
       "path": "attachments/B/图源与导出/生成图5-2异常与状态联动泳道图.py",
@@ -76,13 +76,13 @@
     },
     {
       "path": "attachments/B/图源与导出/图3-1_领域类图.svg",
-      "bytes": 17353,
-      "sha256": "31dd63f50c5baca4fe707db1e4eb5a7919fbcbe651d06513c9001fb343d37064"
+      "bytes": 17906,
+      "sha256": "3f0386028b247c34a92b2ab2ebde2625c15c43ae53e0b827a6b983b8b950d76a"
     },
     {
       "path": "attachments/B/图源与导出/图3-1_领域类图.png",
-      "bytes": 307313,
-      "sha256": "e56594e5883be4594b3dc1321fa431448fae569aca19dc09bf746493290ec806"
+      "bytes": 336930,
+      "sha256": "1da9ebdc9cc468e652d6c0ab657d5683e203a85fd8e0fb2a99a570722636c9f0"
     },
     {
       "path": "attachments/B/图源与导出/图5-2_异常与状态联动泳道图.svg",
