@@ -22,34 +22,39 @@ def build():
         g.lifeline(x, 60, 1270, label, width=200, size=26)
 
     # 激活期
-    g.activation(BUYER, 250, 1235)
-    g.activation(UI, 250, 1235)
-    g.activation(ACCOUNT, 330, 725)
-    g.activation(ITEM, 780, 1095)
-    g.activation(ORDER, 480, 1165)
+    g.activation(BUYER, 250, 1255)
+    g.activation(UI, 250, 1255)
+    g.activation(ACCOUNT, 330, 735)
+    g.activation(ITEM, 800, 1115)
+    g.activation(ORDER, 490, 1185)
+
+    # 失败与重试的可选片段（框内即结束，不进入后续建单）
+    g.frame((80, 345, 1430, 442), "[无会话或越权：M3 返回拒绝，本次请求结束]")
+    g.frame((80, 505, 1430, 600), "[已有回执或处理中：M5 返回原结果，本次请求结束]")
+    g.frame((80, 805, 1430, 910), "[不可交易或竞争失败：M9 返回拒绝，本次请求结束]")
 
     # 消息
     g.message(BUYER, UI, 250, "提交下单意图（物品、价格）")
     g.message(UI, ACCOUNT, 330, "核验身份与归属（BR14）")
-    g.message(ACCOUNT, UI, 400, "有效／无权（拒绝）", dash=True)
-    g.message(UI, ORDER, 480, "识别同次操作（BR10）")
-    g.message(ORDER, UI, 550, "原回执／处理中／无记录", dash=True)
-    g.message(UI, ACCOUNT, 630, "检查双方新交易资格（BR06、BR12）")
-    g.message(ACCOUNT, UI, 700, "允许／拒绝", dash=True)
-    g.message(UI, ITEM, 780, "校验公开可交易（BR03）")
-    g.message(ITEM, UI, 850, "可交易／竞争失败", dash=True)
-    g.message(UI, ORDER, 930, "建立订单并保存快照（BR20）")
-    g.message(ORDER, ITEM, 1000, "预占物品（BR06）")
-    g.message(ITEM, ORDER, 1070, "占用成立", dash=True)
-    g.message(ORDER, UI, 1140, "订单标识（待卖方确认）", dash=True)
-    g.message(UI, BUYER, 1210, "回执／进度／拒绝原因", dash=True)
+    g.message(ACCOUNT, UI, 400, "有效／无权（拒绝）", dash=True, above=False)
+    g.message(UI, ORDER, 490, "识别同次操作（BR10）")
+    g.message(ORDER, UI, 560, "原回执／处理中／无记录", dash=True, above=False)
+    g.message(UI, ACCOUNT, 650, "检查双方新交易资格（BR06、BR12）")
+    g.message(ACCOUNT, UI, 720, "允许／拒绝", dash=True)
+    g.message(UI, ITEM, 800, "校验公开可交易（BR03）")
+    g.message(ITEM, UI, 870, "可交易／竞争失败", dash=True, above=False)
+    g.message(UI, ORDER, 950, "建立订单并保存快照（BR20）")
+    g.message(ORDER, ITEM, 1020, "按订单成立将物品置为交易中（BR06）")
+    g.message(ITEM, ORDER, 1090, "状态已置为交易中", dash=True)
+    g.message(ORDER, UI, 1160, "订单标识（待卖方确认）", dash=True)
+    g.message(UI, BUYER, 1230, "回执／进度／拒绝原因", dash=True)
 
     # 失败与约束说明
     g.box((90, 1290, 1420, 1470), "", fill=NOTE_FILL, pad=16, color="#B45309")
     g.text((755, 1322), "失败、重试与并发约束", 24)
-    note = ("失败分支：M3／M7／M9 返回拒绝时，不建立订单、不产生占用，物品状态保持（ST-B-S1）。\n"
-            "同次重试：已有回执或处理中时返回原结果，不新增订单（ST-B-S2、BR10）。\n"
-            "同时成立：M10—M12 中订单建立与物品占用为同一业务结果，中途失败不留下半个占用；并发下单至多一笔成立（BR06）。")
+    note = ("三个opt框内的返回即本次请求终点：不进入M10，不建立订单、不产生占用，物品状态保持（ST-B-S1、ST-B-S2）。\n"
+            "重试：同次操作已有结果或处理中时返回原回执/进度；成功后未收到响应再试，仍返回原订单（BR10）。\n"
+            "同时成立：M10—M12 中订单建立与物品转交易中为同一业务结果，中途失败不留下半个占用；并发至多一笔成立（BR06）。")
     y = 1360
     for para in note.split("\n"):
         for line in wrap(para, 21, 1270):

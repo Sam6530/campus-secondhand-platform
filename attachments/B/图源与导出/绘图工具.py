@@ -255,6 +255,25 @@ class Diagram:
             % (xy[0] + 8, xy[1] + 8, xy[2] - xy[0] - 16, xy[3] - xy[1] - 16, color)
         )
 
+    def frame(self, xy, text, tag="opt", size=21, color="#64748B"):
+        """UML 组合片段框：无填充，左上角带标签，用于标出可选/失败出口。"""
+        x1, y1, x2, y2 = xy
+        self.d.rectangle(xy, outline=color, width=2)
+        self.svg.append(
+            '<rect x="%d" y="%d" width="%d" height="%d" fill="none" stroke="%s" stroke-width="2"/>'
+            % (x1, y1, x2 - x1, y2 - y1, color)
+        )
+        w = text_width(tag + "  " + text, size) + 26
+        h = size + 16
+        pts = [(x1, y1), (x1 + w, y1), (x1 + w, y1 + h), (x1 + w - 16, y1 + h), (x1, y1 + h)]
+        self.d.polygon(pts, fill="white", outline=color)
+        self.d.line(pts + [pts[0]], fill=color, width=2)
+        self.svg.append(
+            '<polygon points="%s" fill="white" stroke="%s" stroke-width="2"/>'
+            % (" ".join("%d,%d" % (x, y) for x, y in pts), color)
+        )
+        self.text((x1 + 12, y1 + h / 2), tag + "  " + text, size, anchor="lm", gap=4)
+
     # ------------------------------------------------------------------ 输出
     def save(self, name):
         png = ASSET / (name + ".png")

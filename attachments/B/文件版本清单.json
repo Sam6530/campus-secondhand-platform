@@ -1,53 +1,63 @@
 {
-  "version": "B-model-v1-2026-10-20",
+  "version": "B-model-v2-2026-10-21",
   "date": "2026-10-20",
   "main": "f8f84f320727180475069a2e61815505ee2f193d",
   "input_sha256": "4acbd2ef266a6ee3e4f757cadb571beafefa7e7ab0090eb49d95b13cabac818a",
   "files": [
     {
       "path": "documents/校园二手交易与物品流转平台需求规格说明书.md",
-      "bytes": 71439,
-      "sha256": "8dc5a87e822a148d0a4a9124b3d37c956a22a4500d1fd7699f880230619e5863"
+      "bytes": 56713,
+      "sha256": "ba630585c30b7e8363929e23efc6fe8a2be5c59535290ea0dd3f635cb9fff79d"
+    },
+    {
+      "path": "documents/校园二手交易与物品流转平台需求规格说明书.docx",
+      "bytes": 1734950,
+      "sha256": "449b3552747c710d1565261fabb4e3ffc7bbd56baf7affac681ba34347094336"
+    },
+    {
+      "path": "documents/校园二手交易与物品流转平台需求规格说明书.pdf",
+      "bytes": 1671283,
+      "sha256": "7348fbc69b74bac7e70826cfa8e512bcbfac261b8aae81a5451ae7f403aa7734"
     },
     {
       "path": "attachments/B/附件索引.md",
-      "bytes": 3428,
-      "sha256": "b5202bd8b7323b309591e1c27705d95370aaaacaa4b34db2c9f2dded5bcfc0c9"
+      "bytes": 3486,
+      "sha256": "3d9252d8bd8afca84e900e5e96072899f6c691e6d2382dc5bc6db623683f2cd4"
     },
     {
       "path": "attachments/B/自查记录.md",
-      "bytes": 3261,
-      "sha256": "1c73fc54f7c350986a5c13e695fb5fb56f027354f2ab1b52653a2ca116ac6e56"
+      "bytes": 3990,
+      "sha256": "96b731e6d8ae84e91e7e231d0caf7daf02bec382e813c6d0c0a9002d837c14af"
     },
     {
       "path": "attachments/B/修订说明与审核交接.md",
-      "bytes": 5753,
-      "sha256": "8155d53b1e622b37ec034b325f322399ac51e60cede438d22887740f3282e230"
+      "bytes": 8158,
+      "sha256": "382599274e279c148008783211767ba408d3000c62a015a7f498eeca54ae37e8"
     },
     {
       "path": "attachments/B/关键AI交互与人工决定.md",
-      "bytes": 5328,
-      "sha256": "bb19535d496ac1417a98ba2d2189ed39606e05146acdc2c1251181d41ad2b782"
+      "bytes": 8458,
+      "sha256": "02add39eca717b9fb67b624df2dcca6b1e3bcf40f57cda61886bc36a100a9382"
     },
     {
       "path": "attachments/B/模型与规则依据核验记录.md",
-      "bytes": 9016,
-      "sha256": "69680214137bfab4a02dda65e0f56906c768116d4703183f01b1c76945def774"
+      "bytes": 9590,
+      "sha256": "5f31aa3a03e99c418422513f21d6cd1e2266812df5922a3429001e97a7e4425c"
     },
     {
       "path": "attachments/B/模型说明与状态转换核对.md",
-      "bytes": 7696,
-      "sha256": "b62e55e5168bfa6810d6ab1c833dfe70203d117b50b7ed1876b7a1199cfb372e"
+      "bytes": 12810,
+      "sha256": "f9aa94c17f07f6ec6c46c97c7709a3117e6d361886323cca1a31478802af62cc"
     },
     {
       "path": "attachments/B/依据/输入版本与引用说明.md",
-      "bytes": 3374,
-      "sha256": "e8268720b3f7e1a233c4bf67f296a5097cf2bd11e2e42f6df65e58a4fc612b18"
+      "bytes": 3344,
+      "sha256": "72d325a065b2deb8f1f08d5a7e39f0d8a83d298e26a96557ab13d3f00bc58b7e"
     },
     {
       "path": "attachments/B/图源与导出/绘图工具.py",
-      "bytes": 11619,
-      "sha256": "2e131c252b7633437da1791085b50d5573f1b7d03a98b9d0c136e14894fed528"
+      "bytes": 12624,
+      "sha256": "1406be286e36d163c33fcda5630948e48996d310d9c80d29f5126d88c7c64601"
     },
     {
       "path": "attachments/B/图源与导出/生成图3-1领域类图.py",
@@ -56,8 +66,8 @@
     },
     {
       "path": "attachments/B/图源与导出/生成图5-2异常与状态联动泳道图.py",
-      "bytes": 4924,
-      "sha256": "f84e492795c89eb5f4c1aa782e03def6e4977c736b2db5597104e2249d465cf7"
+      "bytes": 4705,
+      "sha256": "572353e5be67c45457923b6a10a1f0cae6db4a17751e1b883b86a4db61d228f6"
     },
     {
       "path": "attachments/B/图源与导出/生成图5-3物品状态机图.py",
@@ -71,8 +81,8 @@
     },
     {
       "path": "attachments/B/图源与导出/生成图5-5下单预占顺序图.py",
-      "bytes": 2863,
-      "sha256": "214c15601fc74cc0a12f5cdeb1db18c4ad79bb58adff116fe1cd717b95465dff"
+      "bytes": 3404,
+      "sha256": "697ecbfa5bf78f3b3e47b4c35c0e88ec54927dc9f3bffaf8bbb1eca0373ef7a5"
     },
     {
       "path": "attachments/B/图源与导出/图3-1_领域类图.svg",
@@ -86,13 +96,13 @@
     },
     {
       "path": "attachments/B/图源与导出/图5-2_异常与状态联动泳道图.svg",
-      "bytes": 13534,
-      "sha256": "268124db2b005302330b4199a1defaddb11c9f8fea8d269c79471224bb6bf7d9"
+      "bytes": 12741,
+      "sha256": "332e2c7775936eabde5af56fae95fec60b7633bc02b015f55f9c9a6c47e20950"
     },
     {
       "path": "attachments/B/图源与导出/图5-2_异常与状态联动泳道图.png",
-      "bytes": 224157,
-      "sha256": "3200f6e05a6f44e12da2e993785f11c8c5df28bfed44876a5b0f78cf9808c981"
+      "bytes": 221093,
+      "sha256": "a0a08eee83917bc7ae1154bd632f96e8d222e3c143b85c16e139294b67cd199f"
     },
     {
       "path": "attachments/B/图源与导出/图5-3_物品状态机图.svg",
@@ -116,13 +126,13 @@
     },
     {
       "path": "attachments/B/图源与导出/图5-5_下单预占顺序图.svg",
-      "bytes": 7754,
-      "sha256": "a2789be656b9b4cf2bd6db5196f14a2127e4be3319f0580b583f83c5ca008dd2"
+      "bytes": 9043,
+      "sha256": "f824fe22da3c74b6bfe5dd4283ebcfab3195198b23dedf93c0942b452d1dce2e"
     },
     {
       "path": "attachments/B/图源与导出/图5-5_下单预占顺序图.png",
-      "bytes": 173402,
-      "sha256": "da44baabce447ea25561fde8d72309b48e563b599674f78a915b8e24f5460a83"
+      "bytes": 231303,
+      "sha256": "83a360d11fe3d0dfa34030875f21b5a0fe309198f1673473d45c703d9b5938f2"
     }
   ],
   "note": "清单不包含自身哈希；哈希由附件/B/图源与导出中的脚本重跑后复核，脚本与导出同版。"
