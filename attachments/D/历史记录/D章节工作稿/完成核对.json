@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-22",
+  "version": "D-chapters-v0.2",
+  "repository_files_unchanged": true,
+  "repository_file_count": 109,
+  "HEAD_branch_refs_and_status_unchanged": true,
+  "git_commit_or_push": false,
+  "source_docx_sha256": "5801d094fcd89ce15b129860fb7381625cb4c8d4d653123b30e4f2fe2f28e34f",
+  "normal_and_TOC_style_font_properties_match_source": true,
+  "chapter_sizes_pt": [
+    16,
+    14
+  ],
+  "body_size_pt": 12,
+  "table_size_pt": 10.5,
+  "table_line_spacing": 1.15,
+  "table_fill": "white/no shading",
+  "captions_centered": 7,
+  "DOCX_PDF_pages": 7,
+  "all_D_markdown_fragments_in_DOCX_PDF": true,
+  "D_visible_placeholder_scan_hits": [],
+  "FR_trace_rows": 24,
+  "acceptance_groups": 12,
+  "visual_QA_all_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "protected_A_B_C_prose_unchanged": true,
+  "outputs": {
+    "D章节补充稿.docx": "b4ca8b4b9df6a21027790c09d4562488c4423726ee05a234ea635b70f8d2a7a6",
+    "D章节补充稿.pdf": "43fa1e11bd10bbcb369f3f5e57c93c3a01904af51ec1e021124623e259426346",
+    "D章节补充稿.md": "4df5e28bb4e7349f9a28cde6a1c85bcb889feeb4f79e667c2e134c94b70e87da",
+    "需求规格说明书_补入D章节预览.md": "53fce5102d7bca7f5fa3f7e3a1153663031cd0db945db44dea259dc6fc6da7af",
+    "附件/编写依据与核对记录.md": "149071687ec2c8b418e0d5a7bc1ef804a39d57a796fa7986b6e93e986f69383d",
+    "附件/需求追踪明细.md": "8e241ad1bd87ea1c17d4f84b3ab14488c5f73475e8071dd0089f2e7ca7350f18"
+  }
+}

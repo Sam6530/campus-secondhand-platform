@@ -1,0 +1,16 @@
+{
+  "role": "campus_user",
+  "round": "round2",
+  "exit_code": 0,
+  "started": "2026-10-15T19:13:00.464459+08:00",
+  "ended": "2026-10-15T19:13:09.179884+08:00",
+  "session_ids": [
+    "session-1f286e0a-b1fc-49a6-9a48-ee10b0bf151f"
+  ],
+  "event_types": [
+    "final",
+    "session",
+    "status",
+    "text"
+  ]
+}

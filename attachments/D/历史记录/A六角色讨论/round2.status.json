@@ -1,0 +1,98 @@
+[
+  {
+    "role": "visitor",
+    "round": "round2",
+    "exit_code": 0,
+    "started": "2026-10-15T19:12:52.203867+08:00",
+    "ended": "2026-10-15T19:13:00.448360+08:00",
+    "session_ids": [
+      "session-e5911ac2-ae8e-4683-b5e2-c0dcfcefd952"
+    ],
+    "event_types": [
+      "final",
+      "session",
+      "status",
+      "text"
+    ]
+  },
+  {
+    "role": "seller",
+    "round": "round2",
+    "exit_code": 0,
+    "started": "2026-10-15T19:12:52.203867+08:00",
+    "ended": "2026-10-15T19:13:00.448360+08:00",
+    "session_ids": [
+      "session-f850f989-3554-450c-af39-54c7915256dc"
+    ],
+    "event_types": [
+      "final",
+      "session",
+      "status",
+      "text"
+    ]
+  },
+  {
+    "role": "buyer",
+    "round": "round2",
+    "exit_code": 0,
+    "started": "2026-10-15T19:12:52.203867+08:00",
+    "ended": "2026-10-15T19:13:00.451359+08:00",
+    "session_ids": [
+      "session-9c32c436-9e3f-4a9f-ab11-ab863dfc03c0"
+    ],
+    "event_types": [
+      "final",
+      "session",
+      "status",
+      "text"
+    ]
+  },
+  {
+    "role": "admin",
+    "round": "round2",
+    "exit_code": 0,
+    "started": "2026-10-15T19:13:00.456467+08:00",
+    "ended": "2026-10-15T19:13:08.569624+08:00",
+    "session_ids": [
+      "session-a5bd1490-db7f-423c-a60d-2897b011c8e5"
+    ],
+    "event_types": [
+      "final",
+      "session",
+      "status",
+      "text"
+    ]
+  },
+  {
+    "role": "campus_user",
+    "round": "round2",
+    "exit_code": 0,
+    "started": "2026-10-15T19:13:00.464459+08:00",
+    "ended": "2026-10-15T19:13:09.179884+08:00",
+    "session_ids": [
+      "session-1f286e0a-b1fc-49a6-9a48-ee10b0bf151f"
+    ],
+    "event_types": [
+      "final",
+      "session",
+      "status",
+      "text"
+    ]
+  },
+  {
+    "role": "parties",
+    "round": "round2",
+    "exit_code": 0,
+    "started": "2026-10-15T19:13:00.466458+08:00",
+    "ended": "2026-10-15T19:13:10.999804+08:00",
+    "session_ids": [
+      "session-42c79ee8-9542-456c-b8a9-a139af66320c"
+    ],
+    "event_types": [
+      "final",
+      "session",
+      "status",
+      "text"
+    ]
+  }
+]

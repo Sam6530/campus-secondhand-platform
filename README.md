@@ -1,31 +1,20 @@
 # 校园二手交易与物品流转平台
 
-本仓库用于软件工程项目的需求分析协作。当前仅初始化职责技能、共同大纲和文档格式规范，业务内容由成员实际搜集资料、共同讨论后逐步形成。
+D 本轮提交包括三份同步修订的主文档及配套核验附件，沿用 documents、attachments、initialization 目录。
 
-## 初始化内容
+## 三份主文档
 
-```
-initialization/
-  skills/
-    共同大纲.md
-    协作协议.md
-    README.md
-    req-a-spec/SKILL.md
-    req-b-model/SKILL.md
-    req-c-prototype/SKILL.md
-    req-d-verify/SKILL.md
-  docs/
-    文档格式规范.md
-    提交要求对照.md
-documents/
-attachments/
-```
+- [需求规格说明书 Word](documents/校园二手交易与物品流转平台需求规格说明书.docx)：42页，以最新需求分析批注修订稿为基础，同步D的阶段核验、全文核对与材料整理职责。
+- [需求分析质量验证报告 Word](documents/需求分析质量验证报告.docx)：7页，同步成员对应关系、A/B/C阶段核验及初步建议、D全文核对与材料整理职责。
+- [AI智能体使用验证报告 Word](documents/AI智能体使用验证报告.docx)：7页，落实本轮两条批注，补齐A/B/C阶段核验与建议，明确六角色审查属于A轮次，简述C轮次。
 
-## 开始工作
+三份均提供同名MD和PDF。完成的AI报告批注已在新副本删除；原批注版和先前文件均保留。需求书8.2文字沿用上一版，按此前暂缓细看要求保留。
 
-1. 拉取仓库，所有成员阅读`initialization/`中的[共同大纲](initialization/skills/共同大纲.md)、[协作协议](initialization/skills/协作协议.md)、[格式规范](initialization/docs/文档格式规范.md)和[提交要求对照](initialization/docs/提交要求对照.md)。
-2. 共同讨论章节、图表、篇幅及职责，记录实际决定和版本。
-3. 各自用对应skill初始化agent，按a→b→c→d交接逐步完善文档；发现问题回交负责人修改，再独立复核。
-4. 使用Git分支、提交和合并同步共同版本；具体约定见协作协议。
+## 附件与核对
 
-项目资料从本轮实际搜集开始，逐项注明出处和取得方式。当前没有业务需求正文、图模型、原型、测试或报告成果，也没有预填的规则与验证结论。实践所需目录和文件在工作开展后按共同约定建立。
+- [全组证据索引](attachments/总证据索引.md)
+- [D附件索引](attachments/D/附件索引.md)
+- [本包交付清单](attachments/交付清单.md)
+- [本轮修改说明](attachments/D/修订说明与审核交接.md)
+
+附件中的旧版摘要、日期和历史检查对应原始活动；本次提交文件指纹以attachments/D/完成核对.json为准。

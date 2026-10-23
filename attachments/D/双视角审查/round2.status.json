@@ -1,0 +1,26 @@
+[
+  {
+    "role": "business",
+    "round": 2,
+    "start": "2026-10-22T18:13:22.968307+08:00",
+    "end": "2026-10-22T18:13:31.477426+08:00",
+    "exit_code": 0,
+    "finals": 1,
+    "session_ids": [
+      "session-86ddc41f-c8f7-4b6e-93ff-2e1092e189eb"
+    ],
+    "tool_calls": 0
+  },
+  {
+    "role": "test",
+    "round": 2,
+    "start": "2026-10-22T18:13:22.968307+08:00",
+    "end": "2026-10-22T18:13:31.417278+08:00",
+    "exit_code": 0,
+    "finals": 1,
+    "session_ids": [
+      "session-91b02bd3-36b4-4733-9525-e584d9d30ccc"
+    ],
+    "tool_calls": 0
+  }
+]
