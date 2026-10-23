@@ -1,0 +1,497 @@
+[
+  {
+    "from": "阅读说明.md",
+    "target": "documents/AI智能体使用验证报告.docx",
+    "exists": true
+  },
+  {
+    "from": "阅读说明.md",
+    "target": "attachments/D/独立复核记录.docx",
+    "exists": true
+  },
+  {
+    "from": "阅读说明.md",
+    "target": "../2026-10-22_CD整合副本/校园二手交易与物品流转平台需求规格说明书_CD整合副本.docx",
+    "exists": true
+  },
+  {
+    "from": "阅读说明.md",
+    "target": "../../campus-secondhand-platform/documents/需求分析质量验证报告.docx",
+    "exists": true
+  },
+  {
+    "from": "阅读说明.md",
+    "target": "attachments/D/给C的修订交接.md",
+    "exists": true
+  },
+  {
+    "from": "阅读说明.md",
+    "target": "documents/AI智能体使用验证报告.docx",
+    "exists": true
+  },
+  {
+    "from": "阅读说明.md",
+    "target": "attachments/D/附件索引.md",
+    "exists": true
+  },
+  {
+    "from": "阅读说明.md",
+    "target": "attachments/D/完成核对.json",
+    "exists": true
+  },
+  {
+    "from": "documents\\AI智能体使用验证报告.md",
+    "target": "../attachments/D/附件索引.md",
+    "exists": true
+  },
+  {
+    "from": "documents\\AI智能体使用验证报告.md",
+    "target": "../../../campus-secondhand-platform/attachments/总证据索引.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/documents/校园二手交易与物品流转平台需求规格说明书.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/documents/需求分析质量验证报告.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/initialization/skills/req-d-verify/SKILL.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/initialization/skills/共同大纲.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/initialization/skills/协作协议.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/initialization/docs/提交要求对照.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/initialization/docs/文档格式规范.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/A/依据/实践项目说明(1).pdf",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/A/依据/学生需求分析与AI智能体使用验证报告.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/A/依据与规则核验记录.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/A/PR回复.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/B/模型与规则依据核验记录.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/B/模型说明与状态转换核对.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/C/原型范围与运行说明.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/C/场景数据与走查脚本.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/C/问题清单与复验.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/C/原型验证记录.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/C/修订说明与审核交接.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/总证据索引.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../campus-secondhand-platform/attachments/交付清单.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../tmp/c_v2_review_20261022/verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../../tmp/c_v2_review_20261022/verification/revision-20261022/脚本复现检查.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\编写依据与核对记录.md",
+    "target": "../../../2026-10-21_B轮次决定.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "编写依据与核对记录.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "需求追踪明细.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "关键AI交互与人工决定.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/统管复核与取舍.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/复核说明.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "独立复核记录.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "问题处理与复核.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "任务约束与执行.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "成员贡献供稿.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "给C的修订交接.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "完成核对.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/business/round1.prompt.txt",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/business/round1.jsonl",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/business/round1.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/business/round1.status.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/business/round2.prompt.txt",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/business/round2.jsonl",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/business/round2.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/business/round2.status.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/test/round1.prompt.txt",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/test/round1.jsonl",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/test/round1.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/test/round1.status.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/test/round2.prompt.txt",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/test/round2.jsonl",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/test/round2.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "双视角审查/test/round2.status.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "../../../2026-10-15_A六角色讨论/讨论汇总.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/prototype/index.html",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/prototype/verify.cjs",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/prototype/walkthrough-check.cjs",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/prototype/browser-check.cjs",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/d-adversarial.cjs",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/D独立反例结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/verification/revision-20261022/脚本复现检查.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/verification/revision-20261022/页面验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "执行复核/verification/revision-20261022/页面导出记录.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "要求与输入/学生需求分析与AI智能体使用验证报告.md",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "要求与输入/三份文档及附件要求.png",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\附件索引.md",
+    "target": "../../制作核对/输入版本.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "prototype/index.html",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/页面验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  },
+  {
+    "from": "attachments\\D\\执行复核\\场景数据与走查脚本.md",
+    "target": "verification/revision-20261022/程序验证结果.json",
+    "exists": true
+  }
+]

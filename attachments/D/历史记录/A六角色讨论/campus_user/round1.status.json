@@ -1,0 +1,13 @@
+{
+  "role": "campus_user",
+  "round": "round1",
+  "exit_code": 0,
+  "started": "2026-10-15T19:10:25.327284+08:00",
+  "ended": "2026-10-15T19:10:37.745159+08:00",
+  "event_types": [
+    "final",
+    "session",
+    "status",
+    "text"
+  ]
+}

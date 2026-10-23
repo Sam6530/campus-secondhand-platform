@@ -1,0 +1,105 @@
+{
+  "independent_sessions": 6,
+  "successful_tasks": 12,
+  "same_input_verified": true,
+  "source_unchanged": true,
+  "all_report_links_resolve": true,
+  "records": [
+    {
+      "role": "buyer",
+      "round": "round1",
+      "session": "session-9c32c436-9e3f-4a9f-ab11-ab863dfc03c0",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "buyer",
+      "round": "round2",
+      "session": "session-9c32c436-9e3f-4a9f-ab11-ab863dfc03c0",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "seller",
+      "round": "round1",
+      "session": "session-f850f989-3554-450c-af39-54c7915256dc",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "seller",
+      "round": "round2",
+      "session": "session-f850f989-3554-450c-af39-54c7915256dc",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "visitor",
+      "round": "round1",
+      "session": "session-e5911ac2-ae8e-4683-b5e2-c0dcfcefd952",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "visitor",
+      "round": "round2",
+      "session": "session-e5911ac2-ae8e-4683-b5e2-c0dcfcefd952",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "admin",
+      "round": "round1",
+      "session": "session-a5bd1490-db7f-423c-a60d-2897b011c8e5",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "admin",
+      "round": "round2",
+      "session": "session-a5bd1490-db7f-423c-a60d-2897b011c8e5",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "campus_user",
+      "round": "round1",
+      "session": "session-1f286e0a-b1fc-49a6-9a48-ee10b0bf151f",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "campus_user",
+      "round": "round2",
+      "session": "session-1f286e0a-b1fc-49a6-9a48-ee10b0bf151f",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "parties",
+      "round": "round1",
+      "session": "session-42c79ee8-9542-456c-b8a9-a139af66320c",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    },
+    {
+      "role": "parties",
+      "round": "round2",
+      "session": "session-42c79ee8-9542-456c-b8a9-a139af66320c",
+      "exit_code": 0,
+      "final_text_matches_log": true,
+      "tool_calls": 0
+    }
+  ]
+}

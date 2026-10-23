@@ -1,0 +1,380 @@
+{
+  "version": "D-package-v1",
+  "date": "2026-10-22T18:30:11.044647+08:00",
+  "C_input": "244fe58dd61fcd8277389fceb4ed9baeefd580e5",
+  "repository_files_unchanged": 109,
+  "git_state_unchanged": true,
+  "all_inputs_unchanged": true,
+  "all_C_source_copy_hashes_match": [
+    "browser-check.cjs",
+    "core.js",
+    "index.html",
+    "style.css",
+    "ui.js",
+    "verify.cjs",
+    "walkthrough-check.cjs"
+  ],
+  "DSH_distinct_sessions": [
+    "session-86ddc41f-c8f7-4b6e-93ff-2e1092e189eb",
+    "session-91b02bd3-36b4-4733-9525-e584d9d30ccc"
+  ],
+  "DSH_successful_tasks": 4,
+  "DSH_tool_calls": 0,
+  "DSH_input_fixed": true,
+  "DSH_execution_records": [
+    {
+      "role": "business",
+      "round": 1,
+      "start": "2026-10-22T18:10:15.474799+08:00",
+      "end": "2026-10-22T18:10:46.594109+08:00",
+      "exit_code": 0,
+      "finals": 1,
+      "session_ids": [
+        "session-86ddc41f-c8f7-4b6e-93ff-2e1092e189eb"
+      ],
+      "tool_calls": 0
+    },
+    {
+      "role": "business",
+      "round": 2,
+      "start": "2026-10-22T18:13:22.968307+08:00",
+      "end": "2026-10-22T18:13:31.477426+08:00",
+      "exit_code": 0,
+      "finals": 1,
+      "session_ids": [
+        "session-86ddc41f-c8f7-4b6e-93ff-2e1092e189eb"
+      ],
+      "tool_calls": 0
+    },
+    {
+      "role": "test",
+      "round": 1,
+      "start": "2026-10-22T18:10:15.474799+08:00",
+      "end": "2026-10-22T18:10:48.772262+08:00",
+      "exit_code": 0,
+      "finals": 1,
+      "session_ids": [
+        "session-91b02bd3-36b4-4733-9525-e584d9d30ccc"
+      ],
+      "tool_calls": 0
+    },
+    {
+      "role": "test",
+      "round": 2,
+      "start": "2026-10-22T18:13:22.968307+08:00",
+      "end": "2026-10-22T18:13:31.417278+08:00",
+      "exit_code": 0,
+      "finals": 1,
+      "session_ids": [
+        "session-91b02bd3-36b4-4733-9525-e584d9d30ccc"
+      ],
+      "tool_calls": 0
+    }
+  ],
+  "execution": {
+    "C_program_groups": 22,
+    "C_program_assertions": 73,
+    "C_document_replay_groups": 22,
+    "UI_groups": 8,
+    "D_independent_groups": 8,
+    "D_independent_assertions": 45,
+    "all_passed": true,
+    "scope": "顺序内存及自动页面操作；非学生观察或真实后台能力"
+  },
+  "documents": [
+    {
+      "title": "AI智能体使用验证报告",
+      "pages": 8,
+      "tables": 4,
+      "TOC_entries": 9,
+      "all_text_preserved": true,
+      "all_TOC_pages_match": true,
+      "visual_pages_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "title": "D独立复核记录",
+      "pages": 5,
+      "tables": 2,
+      "TOC_entries": 6,
+      "all_text_preserved": true,
+      "all_TOC_pages_match": true,
+      "visual_pages_inspected": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    }
+  ],
+  "local_links_checked": 99,
+  "all_local_links_resolve": true,
+  "credential_scan_files": 63,
+  "credential_hits": [],
+  "manual_activities_not_fabricated": true,
+  "course_B5": "原始要求只列条件；本轮按用户指示提供真实执行示例，不自行认定课程已布置或不适用",
+  "files": {
+    "阅读说明.md": {
+      "bytes": 2029,
+      "sha256": "4491120038e0c1402e3cd072adf60fc827dcffa8be6902feb8e60819a6d768e9"
+    },
+    "documents/AI智能体使用验证报告.docx": {
+      "bytes": 76084,
+      "sha256": "ba9a4494caa9952c0e4fec233cd97a0f48b3f00de7e62ab33d96d99461ab4ea6"
+    },
+    "documents/AI智能体使用验证报告.md": {
+      "bytes": 13545,
+      "sha256": "d9f91fd0f7733bf889ccd6de2f38f8f66fbddb6f6782550de95b32522c44ffaa"
+    },
+    "documents/AI智能体使用验证报告.pdf": {
+      "bytes": 323065,
+      "sha256": "18848e13652513fc9f34f2f8c6d24951f6f162cf27651d72b5bd96789d455947"
+    },
+    "attachments/D/任务约束与执行.md": {
+      "bytes": 2305,
+      "sha256": "cceffb5ee42fa2f10ffa02c8f62451e3071e0371f421e38a8651cb88909bf383"
+    },
+    "attachments/D/关键AI交互与人工决定.md": {
+      "bytes": 5640,
+      "sha256": "3ec1446b79b0a98d8877529434e1fd0ca32f69127d86ddbfa2ac3449c6d03c79"
+    },
+    "attachments/D/成员贡献供稿.md": {
+      "bytes": 1829,
+      "sha256": "30ea90ae7d5ba6321be8e6b4cdaf87ab86cfca1777479f865b12a82609bc11ee"
+    },
+    "attachments/D/独立复核记录.docx": {
+      "bytes": 70751,
+      "sha256": "e869fe908dfc394ffaccb800c6a4fefb23fb2274efee4284ee5a2fe3f6a7cb39"
+    },
+    "attachments/D/独立复核记录.md": {
+      "bytes": 5943,
+      "sha256": "47d6a3702b36ef2f02b2251668b790c170a3f91a7b2052eba3f80fbfde03d1c8"
+    },
+    "attachments/D/独立复核记录.pdf": {
+      "bytes": 271203,
+      "sha256": "373e630368bef13038f82a68284970397115984de14c82701d953d6bc49959fb"
+    },
+    "attachments/D/给C的修订交接.md": {
+      "bytes": 3094,
+      "sha256": "d8b0d4965c00c8ebd68b23431f26d8a825aa0746ee76377f2b9f0311ba445d16"
+    },
+    "attachments/D/编写依据与核对记录.md": {
+      "bytes": 8801,
+      "sha256": "37224d32bd7d15e0595e25d7062f371d7fbf2b9d0c535d7a377de6aad6dbda1c"
+    },
+    "attachments/D/问题处理与复核.md": {
+      "bytes": 4668,
+      "sha256": "6cead82acf1770172eb56bb780d7429ae07fca5a882d33e6ef901d5eccaef2e0"
+    },
+    "attachments/D/附件索引.md": {
+      "bytes": 3704,
+      "sha256": "552dd2233f1367f0e9035e11b6cbec146e60a3db9a372eafece6577fea152aea"
+    },
+    "attachments/D/需求追踪明细.md": {
+      "bytes": 4544,
+      "sha256": "0f449064a729ea081ce52b36844ea54088b9c0484475b44ae93c7d642b90d30f"
+    },
+    "attachments/D/双视角审查/round1.status.json": {
+      "bytes": 589,
+      "sha256": "f4a33070d412472079390e2630cd33603f4cb371282f08e32e0fa5756a756a3b"
+    },
+    "attachments/D/双视角审查/round2.status.json": {
+      "bytes": 589,
+      "sha256": "96736bb23b6b1520fa8df83c48b4abd1cd60d17d24d2f431af21501e15980f85"
+    },
+    "attachments/D/双视角审查/同版输入.txt": {
+      "bytes": 156647,
+      "sha256": "04c241c33f46933c1ab487201864d9f0cf3992301d9f4a274eb35b882e736e3f"
+    },
+    "attachments/D/双视角审查/统管复核与取舍.md": {
+      "bytes": 2735,
+      "sha256": "0704603e0618608c801f1376f6435039a1fed64ccc014afb2b7d6f93531b8e98"
+    },
+    "attachments/D/执行复核/d-adversarial.cjs": {
+      "bytes": 7547,
+      "sha256": "7ff5e0e2246b385f1433fff65fb0f285ac2252261aa981358e5f7898d33d6485"
+    },
+    "attachments/D/执行复核/D独立反例结果.json": {
+      "bytes": 89458,
+      "sha256": "3e115136ba031e96834078cf6614c1df2d8dce3a8976a6c59ab239e503d42ae4"
+    },
+    "attachments/D/执行复核/场景数据与走查脚本.md": {
+      "bytes": 44887,
+      "sha256": "e0592f9e900775a4f742049e8e03f4042cada21b53ba4b370d6b0d96a84fcea4"
+    },
+    "attachments/D/执行复核/复核说明.md": {
+      "bytes": 2224,
+      "sha256": "a7644a61d888ac31cea4d638b8b5f07fb1069e6fd23f1d5598de730a9cc50c9a"
+    },
+    "attachments/D/要求与输入/三份文档及附件要求.png": {
+      "bytes": 77319,
+      "sha256": "f72076288f4c3fd22099db08c977adf75f7941be50365203c5869d0c76116d97"
+    },
+    "attachments/D/要求与输入/学生需求分析与AI智能体使用验证报告.md": {
+      "bytes": 33009,
+      "sha256": "83a7cf00244652fd836f5b263fd6db84085f1873a2bf3067955be28c10bb8ee1"
+    },
+    "attachments/D/双视角审查/business/round1.jsonl": {
+      "bytes": 14811,
+      "sha256": "479df51ef1ff6199474bbb12be8f20c7f48a936610d5a7820d58cf1d2c3779c5"
+    },
+    "attachments/D/双视角审查/business/round1.md": {
+      "bytes": 7099,
+      "sha256": "cb3f566858c5d41467f742f532ccd7eabf2810cfb5ed62e6b68917b9388cad7b"
+    },
+    "attachments/D/双视角审查/business/round1.prompt.txt": {
+      "bytes": 159088,
+      "sha256": "7eb161661f924eaa9be76bda547e9db81817466f1875217c80ebb072db84f419"
+    },
+    "attachments/D/双视角审查/business/round1.status.json": {
+      "bytes": 268,
+      "sha256": "40f1e95d1b0cf564a3fa054c4505fe10109c7e4174cb55d9b4fb61c778ad2644"
+    },
+    "attachments/D/双视角审查/business/round1.stderr.log": {
+      "bytes": 222,
+      "sha256": "d0bbbe7700f39a7ab564cfbe6425328b73e22889207a35a5a384d9385625b64a"
+    },
+    "attachments/D/双视角审查/business/round2.jsonl": {
+      "bytes": 10010,
+      "sha256": "0817f9f64017a31e0d9b3067c85f14bd27fa83f2ece41684addd26f29c8d87f6"
+    },
+    "attachments/D/双视角审查/business/round2.md": {
+      "bytes": 4697,
+      "sha256": "f819d2111f4ed65c6e4aa78ff0f1934377c4ea47564f96a68a20aff4d7f5d9d1"
+    },
+    "attachments/D/双视角审查/business/round2.prompt.txt": {
+      "bytes": 10281,
+      "sha256": "da7b5221c10a408caa7438baf69990fccbb372231b4783ad77342e4c86698cf4"
+    },
+    "attachments/D/双视角审查/business/round2.status.json": {
+      "bytes": 268,
+      "sha256": "8d5e08701e0620b2e35e8ef59bbfe4fbb7259f4054bf3d6a5c6a017e7963a807"
+    },
+    "attachments/D/双视角审查/business/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/双视角审查/test/round1.jsonl": {
+      "bytes": 17347,
+      "sha256": "c43f6a7de6b1bac57c752b10c25285d0cf423bd021365ac69c89417bc91accab"
+    },
+    "attachments/D/双视角审查/test/round1.md": {
+      "bytes": 8477,
+      "sha256": "fec1eb8530b0b9b01bfa4205556022495c7db6d0e2c9aeb6ab6e38dd11e76e13"
+    },
+    "attachments/D/双视角审查/test/round1.prompt.txt": {
+      "bytes": 159041,
+      "sha256": "ebb75ed30aa80927ea2fa65d533e51a2b16d69311886f694c7f9d98ff82de0a6"
+    },
+    "attachments/D/双视角审查/test/round1.status.json": {
+      "bytes": 264,
+      "sha256": "c930fa2b7138ae74d000a8dddd5569255be13797e3c78bb8c22923abfdd388ec"
+    },
+    "attachments/D/双视角审查/test/round1.stderr.log": {
+      "bytes": 222,
+      "sha256": "d0bbbe7700f39a7ab564cfbe6425328b73e22889207a35a5a384d9385625b64a"
+    },
+    "attachments/D/双视角审查/test/round2.jsonl": {
+      "bytes": 11016,
+      "sha256": "af1367776c0b784e00adb721915fed45145ec890cb5108c271d9e989d13572b7"
+    },
+    "attachments/D/双视角审查/test/round2.md": {
+      "bytes": 5202,
+      "sha256": "f6c791748a03b0b8df40e5fc872e686d2f698068756406c9d8a602f955c2ab7a"
+    },
+    "attachments/D/双视角审查/test/round2.prompt.txt": {
+      "bytes": 9188,
+      "sha256": "e327e504eb27601a2b68970a8fa7f54e9420e574b2bd75bece1665617da67146"
+    },
+    "attachments/D/双视角审查/test/round2.status.json": {
+      "bytes": 264,
+      "sha256": "950b89bae9fe61e275c7c1c401e01705131176d68de9b99ac18b186c0c49c442"
+    },
+    "attachments/D/双视角审查/test/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/执行复核/prototype/browser-check.cjs": {
+      "bytes": 8995,
+      "sha256": "86d8362575c1632954e1096e118d6ac296a23207063fc9d0655fbb95df9f6827"
+    },
+    "attachments/D/执行复核/prototype/core.js": {
+      "bytes": 14361,
+      "sha256": "c4ab508ad474de4ee4ef4eea8e9fbeb9ca6af28d95a8da2c9da1823609a68cee"
+    },
+    "attachments/D/执行复核/prototype/index.html": {
+      "bytes": 3439,
+      "sha256": "27012ce940551d04d6d803b2da785404b972eec713342912f88028591700adbc"
+    },
+    "attachments/D/执行复核/prototype/style.css": {
+      "bytes": 4580,
+      "sha256": "d4e23af218b1b3bfd243efade0155533545d6b3f6d4ce9b05a4b6d6058ef6c5b"
+    },
+    "attachments/D/执行复核/prototype/ui.js": {
+      "bytes": 10812,
+      "sha256": "b88da50ba679e5fd1e3e27935305bd9526e13d23948b21480ed690ad915638a2"
+    },
+    "attachments/D/执行复核/prototype/verify.cjs": {
+      "bytes": 14044,
+      "sha256": "224001c378a6505ff31e0640a353dc215cd5c592a2861cd743208f00bb9d5240"
+    },
+    "attachments/D/执行复核/prototype/walkthrough-check.cjs": {
+      "bytes": 2178,
+      "sha256": "61008c0bbd45f8221c26f825f4cce4a14347031cddac6da5166e96ad450e9547"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/01-发现物品.png": {
+      "bytes": 71046,
+      "sha256": "acd9035928928a18b493bb59029644903b548bdd0fd318ddfc2ce2935179000b"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/02-买方确认完成.png": {
+      "bytes": 61736,
+      "sha256": "de123753c4af0fa2c83faffc849614116177e9c2e70c4212e3fc67899595315b"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/03-异常终止.png": {
+      "bytes": 95107,
+      "sha256": "9b7fae1ac84eaeab0b979139efb62b71fb62c337cf636adc7bb5e5043cc3f742"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/04-手机宽度.png": {
+      "bytes": 57159,
+      "sha256": "ec4be87c2341fc784aa76832c042223e95c663bb9f4fe5f69f96c35056237543"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/05-未登记异常终止-待交付.png": {
+      "bytes": 97294,
+      "sha256": "ee2dd64fabff99d811588bb65179da15b281c20b9ab672c7cc235cd28eb5f672"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/05-未登记异常终止-待卖方确认.png": {
+      "bytes": 97437,
+      "sha256": "beda3419f71b7304e9104d43afc055f379f23ef058970ca59a873b8c2f9eab75"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/05-未登记异常终止-报告交付但未登记.png": {
+      "bytes": 97313,
+      "sha256": "ff0b43f5c1ad665f03b9c324f4338667f1b12a35d75b776dc8ac3bf01954f6f6"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/程序验证结果.json": {
+      "bytes": 189135,
+      "sha256": "2b851cbb01b6cddadd74939c5725ab70022ab081ba86eba86186833b3d6057c7"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/脚本复现检查.json": {
+      "bytes": 2669,
+      "sha256": "49f2a3d1fb231571ee67521de1a3f402b183431ce402cab8ac0aad1b0b574018"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/页面导出记录.json": {
+      "bytes": 7269,
+      "sha256": "c09958cb9c2ea03c1f711ae29824097b5049b5795e67de69ec6e24bb7b4d6b22"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/页面验证结果.json": {
+      "bytes": 1364,
+      "sha256": "8c212ea56f34924285b3801cb931c4e6c05d2f45cd651580cac68daa20b7fdce"
+    }
+  },
+  "self_hash_note": "本JSON不含自身哈希；内部制作脚本与DSH缓存不属于交付附件"
+}

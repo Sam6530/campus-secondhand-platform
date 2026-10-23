@@ -1,0 +1,13 @@
+{
+  "role": "buyer",
+  "round": "round1",
+  "exit_code": 0,
+  "started": "2026-10-15T19:10:09.128300+08:00",
+  "ended": "2026-10-15T19:10:28.161026+08:00",
+  "event_types": [
+    "final",
+    "session",
+    "status",
+    "text"
+  ]
+}

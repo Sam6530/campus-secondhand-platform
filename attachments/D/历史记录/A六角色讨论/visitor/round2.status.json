@@ -1,0 +1,16 @@
+{
+  "role": "visitor",
+  "round": "round2",
+  "exit_code": 0,
+  "started": "2026-10-15T19:12:52.203867+08:00",
+  "ended": "2026-10-15T19:13:00.448360+08:00",
+  "session_ids": [
+    "session-e5911ac2-ae8e-4683-b5e2-c0dcfcefd952"
+  ],
+  "event_types": [
+    "final",
+    "session",
+    "status",
+    "text"
+  ]
+}
