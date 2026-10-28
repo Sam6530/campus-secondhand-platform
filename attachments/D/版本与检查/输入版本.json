@@ -1,0 +1,54 @@
+{
+  "created": "2026-10-22T18:08:42.260845+08:00",
+  "C_commit": "244fe58dd61fcd8277389fceb4ed9baeefd580e5",
+  "A_commit": "3c8b6c608cfe5698b7b2c0943ea0c145bb6d1055",
+  "SRS": "C:\\Users\\22721\\Desktop\\软件工程大作业\\D核验\\2026-10-22_CD整合副本\\校园二手交易与物品流转平台需求规格说明书_CD整合副本.md",
+  "inputs": [
+    {
+      "path": "C:\\Users\\22721\\Desktop\\软件工程大作业\\D核验\\2026-10-22_CD整合副本\\校园二手交易与物品流转平台需求规格说明书_CD整合副本.md",
+      "sha256": "6b55a681cd6319779a5097132666fd72257e9e8b43f7292e6b865a0a238892ed"
+    },
+    {
+      "path": "C:\\Users\\22721\\Desktop\\软件工程大作业\\campus-secondhand-platform\\documents\\需求分析质量验证报告.md",
+      "sha256": "27e0438b81deddd3e889c16b6b717f5ed65a0df0f5556e8f0bffda30aaad39dc"
+    },
+    {
+      "path": "C:\\Users\\22721\\Desktop\\软件工程大作业\\campus-secondhand-platform\\attachments\\C\\问题清单与复验.md",
+      "sha256": "7d17695dc285c8b77343acbbf98db1e6eeb2951e16390e176bc3dbc5b8794b4d"
+    },
+    {
+      "path": "C:\\Users\\22721\\Desktop\\软件工程大作业\\campus-secondhand-platform\\attachments\\C\\修订说明与审核交接.md",
+      "sha256": "28199edc4b9ce586e8827ec467694d8d32c48a72e78b59e46e71801c470569df"
+    },
+    {
+      "path": "C:\\Users\\22721\\Desktop\\软件工程大作业\\campus-secondhand-platform\\attachments\\B\\模型说明与状态转换核对.md",
+      "sha256": "f9aa94c17f07f6ec6c46c97c7709a3117e6d361886323cca1a31478802af62cc"
+    },
+    {
+      "path": "C:\\Users\\22721\\Desktop\\软件工程大作业\\D核验\\2026-10-21_B轮次决定.md",
+      "sha256": "4a22350ed5a7d1b679a629cd94bfec107e32fae8207fdee5cbcbe8a1d855c5ab"
+    },
+    {
+      "path": "C:\\Users\\22721\\Desktop\\软件工程大作业\\D核验\\2026-10-22_D配套材料\\attachments\\D\\要求与输入\\学生需求分析与AI智能体使用验证报告.md",
+      "sha256": "83a7cf00244652fd836f5b263fd6db84085f1873a2bf3067955be28c10bb8ee1"
+    }
+  ],
+  "same_review_input_sha256": "04c241c33f46933c1ab487201864d9f0cf3992301d9f4a274eb35b882e736e3f",
+  "roles": {
+    "business": [
+      "用户与业务管理员",
+      "从访问者、校园用户、买卖双方及订单当事人目标检查任务价值、访问范围、退出与争议边界，检查新增标准是否扩大既定政策，检查报告有无把模型意见当业务确认。",
+      "U"
+    ],
+    "test": [
+      "开发与测试人员",
+      "从对象职责、条件组合、返回/失败、状态/数据联动、可复做性和证据版本检查D标准与C报告，特别注意覆盖映射是否掩盖未实现能力。",
+      "T"
+    ]
+  },
+  "dsh_version": "0.1.7-rc.2",
+  "configured_model": "deepseek-flash",
+  "thinking": "disabled",
+  "all_agent_tools_disabled": true,
+  "method": "两个独立DSH headless会话；首轮独立，次轮交换原始意见并受统管追问影响"
+}

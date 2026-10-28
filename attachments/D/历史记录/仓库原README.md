@@ -1,0 +1,31 @@
+# 校园二手交易与物品流转平台
+
+本仓库用于软件工程项目的需求分析协作。当前仅初始化职责技能、共同大纲和文档格式规范，业务内容由成员实际搜集资料、共同讨论后逐步形成。
+
+## 初始化内容
+
+```
+initialization/
+  skills/
+    共同大纲.md
+    协作协议.md
+    README.md
+    req-a-spec/SKILL.md
+    req-b-model/SKILL.md
+    req-c-prototype/SKILL.md
+    req-d-verify/SKILL.md
+  docs/
+    文档格式规范.md
+    提交要求对照.md
+documents/
+attachments/
+```
+
+## 开始工作
+
+1. 拉取仓库，所有成员阅读`initialization/`中的[共同大纲](../../../initialization/skills/共同大纲.md)、[协作协议](../../../initialization/skills/协作协议.md)、[格式规范](../../../initialization/docs/文档格式规范.md)和[提交要求对照](../../../initialization/docs/提交要求对照.md)。
+2. 共同讨论章节、图表、篇幅及职责，记录实际决定和版本。
+3. 各自用对应skill初始化agent，按a→b→c→d交接逐步完善文档；发现问题回交负责人修改，再独立复核。
+4. 使用Git分支、提交和合并同步共同版本；具体约定见协作协议。
+
+项目资料从本轮实际搜集开始，逐项注明出处和取得方式。当前没有业务需求正文、图模型、原型、测试或报告成果，也没有预填的规则与验证结论。实践所需目录和文件在工作开展后按共同约定建立。

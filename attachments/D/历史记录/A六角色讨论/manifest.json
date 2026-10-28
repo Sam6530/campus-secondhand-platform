@@ -1,0 +1,42 @@
+{
+  "date": "2026-10-15T19:09:17.570789+08:00",
+  "source_commit": "959f6089e2bbc7f3abbd7b1ebda11ca81d1eb562",
+  "source_file": "C:\\Users\\22721\\Desktop\\软件工程大作业\\campus-secondhand-platform\\校园二手交易与物品流转平台需求规格说明书_A角色_篇幅优化版.docx",
+  "source_sha256": "b72a0c4df4f579cd7a07b6322b3eeee47c3937ed626f1559e2170683dae1cfcb",
+  "input_sha256": "90fc95c76379bd5aa597ea287e5b560003eaa686acbbbb417f6b12bb8f3a7a37",
+  "dsh_cli": "D:\\Users\\22721\\AppData\\Local\\Programs\\DSH Desktop\\resources\\app.asar.unpacked\\node_modules\\@deepseek-ai\\dsh\\lib\\bin.js",
+  "dsh_version": "0.1.7-rc.2",
+  "configured_model": "deepseek-flash",
+  "thinking": "disabled",
+  "roles": {
+    "buyer": [
+      "买方",
+      "从发现物品、判断可信度与交易条件、咨询、下单、等待接单、线下交接、确认收到、评价与维权的完整任务出发。不要只找并发和重复请求问题。"
+    ],
+    "seller": [
+      "卖方",
+      "从准备发布、纠正信息、回应咨询、选择是否接单、约定线下交接、登记交付、处理买方不响应及退出交易的任务出发。考虑卖方合理负担和被滥用的风险。"
+    ],
+    "visitor": [
+      "访问者",
+      "你是未登录或尚未注册的人，只讨论此身份的合理目标、可见信息、注册及认证入口边界、必要的隐私限制。不要直接要求获得已认证用户的全部权限。"
+    ],
+    "admin": [
+      "管理员",
+      "从资格审核、发布审核、违规处置、举报争议、权限边界和可执行工作量出发，检查治理职责是否清楚、是否要求平台承担不能判断的线下事实。不要默认增加多个后台岗位或复杂工作流。"
+    ],
+    "campus_user": [
+      "校园用户",
+      "你是一般已注册或已认证校园用户，但尚未进入某笔交易；关注认证、账户持续可用性、浏览收藏咨询、本人资料与隐私、正常退出校园身份等一般使用任务。区分认证前后，不与买卖双方任务重复凑数。"
+    ],
+    "parties": [
+      "交易当事人",
+      "同时考虑一笔既有交易中的买卖双方，重点检查双方沟通与约定、等待对方、线下交接与系统记录、退出与争议的共同任务和权责对等。不能偏袒一方，也不要把平台扩展为支付或物流服务。"
+    ]
+  },
+  "independent_sessions": true,
+  "concurrency": 3,
+  "method": "Six independent DSH headless role-agent sessions, text-only, all tool providers disabled; parent Codex coordinates and audits results.",
+  "input_canonical_text_sha256": "2df44002b3ddf81f5d22f8be55bd9c59d83c88b778b707b78ef2404f585c9b8a",
+  "hash_note": "Exact snapshot bytes recorded; the initial canonical LF hash is preserved separately."
+}

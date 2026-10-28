@@ -1,0 +1,16 @@
+{
+  "role": "seller",
+  "round": "round2",
+  "exit_code": 0,
+  "started": "2026-10-15T19:12:52.203867+08:00",
+  "ended": "2026-10-15T19:13:00.448360+08:00",
+  "session_ids": [
+    "session-f850f989-3554-450c-af39-54c7915256dc"
+  ],
+  "event_types": [
+    "final",
+    "session",
+    "status",
+    "text"
+  ]
+}

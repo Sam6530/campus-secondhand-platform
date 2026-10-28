@@ -1,0 +1,16 @@
+{
+  "role": "admin",
+  "round": "round2",
+  "exit_code": 0,
+  "started": "2026-10-15T19:13:00.456467+08:00",
+  "ended": "2026-10-15T19:13:08.569624+08:00",
+  "session_ids": [
+    "session-a5bd1490-db7f-423c-a60d-2897b011c8e5"
+  ],
+  "event_types": [
+    "final",
+    "session",
+    "status",
+    "text"
+  ]
+}

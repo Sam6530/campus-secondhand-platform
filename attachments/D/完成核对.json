@@ -1,0 +1,1111 @@
+{
+  "version": "D-PR-20261023",
+  "base_main": "4fb2b4eed5f005c39caba04e878bbe6e1ebed55f",
+  "branch": "d/verification",
+  "source_review_package": "2026-10-23_三报告同步修订版",
+  "main_documents": [
+    {
+      "document": "AI智能体使用验证报告",
+      "pages": 7,
+      "TOC_entries": 8,
+      "body_and_PDF_checked": true
+    },
+    {
+      "document": "需求分析质量验证报告",
+      "pages": 7,
+      "TOC_entries": 8,
+      "body_and_PDF_checked": true
+    },
+    {
+      "document": "校园二手交易与物品流转平台需求规格说明书",
+      "pages": 42,
+      "TOC_entries": 51,
+      "body_and_PDF_checked": true
+    }
+  ],
+  "main_document_files_identical_to_review_package": true,
+  "initialization_unchanged": true,
+  "pre_submission_document_checks": {
+    "AI_comments_applied_and_deleted": 2,
+    "original_annotated_and_review_files_unchanged": true,
+    "SRS_business_chapters_1_to_6_words_unchanged": true,
+    "SRS_section_8_2_words_unchanged": true
+  },
+  "pre_submission_check_reference": "SRS 1—6 unchanged refers to the prior user-commented revision, not raw C source.",
+  "local_MD_links_valid": 428,
+  "files": {
+    ".gitattributes": {
+      "bytes": 69,
+      "sha256": "e4f5ffa3eaf6e81efd19cb63a9ef6e60c767f4332e5c308aba1c0c3eb202b3f5"
+    },
+    ".gitignore": {
+      "bytes": 102,
+      "sha256": "76644f924e6362ab6195c8737bb138e69784d192249c0e86dcb03166a0288c84"
+    },
+    "README.md": {
+      "bytes": 1406,
+      "sha256": "3eb1bedb5b4f1d398d1c6f9ad834dfb554a2098ecfeec71a2759a743fd3140a5"
+    },
+    "attachments/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/A/PR回复.md": {
+      "bytes": 2602,
+      "sha256": "e45e3b7d44713c6851bfef10041a4b236a174714aa9d12bb524a6caa6792fbbc"
+    },
+    "attachments/A/依据/学生需求分析与AI智能体使用验证报告.md": {
+      "bytes": 33009,
+      "sha256": "83a7cf00244652fd836f5b263fd6db84085f1873a2bf3067955be28c10bb8ee1"
+    },
+    "attachments/A/依据/实践项目说明(1).pdf": {
+      "bytes": 119776,
+      "sha256": "bbb218aec686fd0a204a22e339b70076e45f9c46649637b9764f01a9db8a5e04"
+    },
+    "attachments/A/依据与规则核验记录.md": {
+      "bytes": 9248,
+      "sha256": "b5e299d6cc6d6cbc034493d03adad811046f3f1dff670a604567e70dd0c1f6eb"
+    },
+    "attachments/A/修订说明与审核交接.md": {
+      "bytes": 5216,
+      "sha256": "d7f50889664f95b1279de81103b09185194b9559b593a6b2a7477ccbae674658"
+    },
+    "attachments/A/关键AI交互与人工决定.md": {
+      "bytes": 6152,
+      "sha256": "49b946e97be083a57359f94fa4fff230195455129ad58a66a31410b6b2d33e19"
+    },
+    "attachments/A/图源与导出/图1-1_系统上下文图.png": {
+      "bytes": 153374,
+      "sha256": "614c0504de258a9699b402b3d09b7f45501a0bb89afeea0ecdc15a7662cc95c8"
+    },
+    "attachments/A/图源与导出/图1-1_系统上下文图.svg": {
+      "bytes": 4534,
+      "sha256": "66120889ab5aa7c988f437a7b29900a326c9b72f91fc3c80aaf336f88e26aaf6"
+    },
+    "attachments/A/图源与导出/图2-1_UML用例图.png": {
+      "bytes": 209098,
+      "sha256": "cc127cd7a191b616fc4c57275b7a280240c6e7c9c85aad11e5ad904b298262a5"
+    },
+    "attachments/A/图源与导出/图2-1_UML用例图.svg": {
+      "bytes": 9310,
+      "sha256": "b55ac5c114ca76b03d3d25294e177d9709953ca117e1ab8362604d4381150831"
+    },
+    "attachments/A/图源与导出/图5-1_核心交易主流程泳道图.png": {
+      "bytes": 154651,
+      "sha256": "cdd036611006996306c5cb9421b715dad7334e9cd66c50c3077e1b56a867ddb9"
+    },
+    "attachments/A/图源与导出/图5-1_核心交易主流程泳道图.svg": {
+      "bytes": 10435,
+      "sha256": "cf2c08c2bceb31493047551b046e8268408893f677e642a6c412f5b584d2d37a"
+    },
+    "attachments/A/图源与导出/重绘用例图.py": {
+      "bytes": 4161,
+      "sha256": "e8d26702301345d6a505eec77e2e51d22ae2fec9f5a3697460fa54faa0941c21"
+    },
+    "attachments/A/文件版本清单.json": {
+      "bytes": 3894,
+      "sha256": "bd58c1434432a45687ccefdbdf6871867687f08bf0a2bbeb7cba592f2a104d22"
+    },
+    "attachments/A/自查记录.md": {
+      "bytes": 2914,
+      "sha256": "91d7dc3c61c31c39cb45ce13e2c41db06dfec195eda0393e12e4e789a5b2490c"
+    },
+    "attachments/A/附件索引.md": {
+      "bytes": 2653,
+      "sha256": "77c26c88a644f269b84b629702f3c34657c8227b291a00193b1afac9dd366556"
+    },
+    "attachments/B/依据/输入版本与引用说明.md": {
+      "bytes": 3344,
+      "sha256": "72d325a065b2deb8f1f08d5a7e39f0d8a83d298e26a96557ab13d3f00bc58b7e"
+    },
+    "attachments/B/修订说明与审核交接.md": {
+      "bytes": 8158,
+      "sha256": "382599274e279c148008783211767ba408d3000c62a015a7f498eeca54ae37e8"
+    },
+    "attachments/B/关键AI交互与人工决定.md": {
+      "bytes": 8458,
+      "sha256": "02add39eca717b9fb67b624df2dcca6b1e3bcf40f57cda61886bc36a100a9382"
+    },
+    "attachments/B/图源与导出/图3-1_领域类图.png": {
+      "bytes": 336930,
+      "sha256": "1da9ebdc9cc468e652d6c0ab657d5683e203a85fd8e0fb2a99a570722636c9f0"
+    },
+    "attachments/B/图源与导出/图3-1_领域类图.svg": {
+      "bytes": 17906,
+      "sha256": "3f0386028b247c34a92b2ab2ebde2625c15c43ae53e0b827a6b983b8b950d76a"
+    },
+    "attachments/B/图源与导出/图5-2_异常与状态联动泳道图.png": {
+      "bytes": 221093,
+      "sha256": "a0a08eee83917bc7ae1154bd632f96e8d222e3c143b85c16e139294b67cd199f"
+    },
+    "attachments/B/图源与导出/图5-2_异常与状态联动泳道图.svg": {
+      "bytes": 12741,
+      "sha256": "332e2c7775936eabde5af56fae95fec60b7633bc02b015f55f9c9a6c47e20950"
+    },
+    "attachments/B/图源与导出/图5-3_物品状态机图.png": {
+      "bytes": 180517,
+      "sha256": "110fc13fc62fc01c2833a740352ac1ea057034fee6ceac9897261c12061a7e83"
+    },
+    "attachments/B/图源与导出/图5-3_物品状态机图.svg": {
+      "bytes": 7729,
+      "sha256": "79b6366ca25c1b516da764429e546bcacb084b3ed26e80d4d9e88868a89195bc"
+    },
+    "attachments/B/图源与导出/图5-4_订单状态机图.png": {
+      "bytes": 166908,
+      "sha256": "8e124a7edf7f89470737be42e21f152d4605c19474e078007935a4c147408f87"
+    },
+    "attachments/B/图源与导出/图5-4_订单状态机图.svg": {
+      "bytes": 7221,
+      "sha256": "c1761527eefe10a53d365023151d11d1854e9c3366d6959abc6d3f0d14e743b1"
+    },
+    "attachments/B/图源与导出/图5-5_下单预占顺序图.png": {
+      "bytes": 231303,
+      "sha256": "83a360d11fe3d0dfa34030875f21b5a0fe309198f1673473d45c703d9b5938f2"
+    },
+    "attachments/B/图源与导出/图5-5_下单预占顺序图.svg": {
+      "bytes": 9043,
+      "sha256": "f824fe22da3c74b6bfe5dd4283ebcfab3195198b23dedf93c0942b452d1dce2e"
+    },
+    "attachments/B/图源与导出/生成图3-1领域类图.py": {
+      "bytes": 6437,
+      "sha256": "2d02f4e6a3ee6cd8ee280f8ee1c06b16b9d337f7f4c4b7052f242e51b8cdad2a"
+    },
+    "attachments/B/图源与导出/生成图5-2异常与状态联动泳道图.py": {
+      "bytes": 4613,
+      "sha256": "65d96d8e39c3c2e11ce33821a95ef0e904b40513f6ca13fb3f29f0db75396a17"
+    },
+    "attachments/B/图源与导出/生成图5-3物品状态机图.py": {
+      "bytes": 3782,
+      "sha256": "24cb286d7001f357af4a33780e4583982b8ab2cb13e52ca079b961a266e70675"
+    },
+    "attachments/B/图源与导出/生成图5-4订单状态机图.py": {
+      "bytes": 3343,
+      "sha256": "bf7c111dd23fe467094d27d3f5ec4a13e9d2e5d97417c57967c1e6dde0df79fe"
+    },
+    "attachments/B/图源与导出/生成图5-5下单预占顺序图.py": {
+      "bytes": 3334,
+      "sha256": "1db4a28cc97da76230865c0be1def77c8a8ac2b1bd22c5ac2d4bcfc98d12a3a4"
+    },
+    "attachments/B/图源与导出/绘图工具.py": {
+      "bytes": 12336,
+      "sha256": "50a2a2af2a233c80e34365e31fc4eb4f07eb064ac1ce6cdc96c6e35ee853957f"
+    },
+    "attachments/B/文件版本清单.json": {
+      "bytes": 5382,
+      "sha256": "88a188179364279811767761865946428f373028811855178477236e4ae826aa"
+    },
+    "attachments/B/模型与规则依据核验记录.md": {
+      "bytes": 9590,
+      "sha256": "5f31aa3a03e99c418422513f21d6cd1e2266812df5922a3429001e97a7e4425c"
+    },
+    "attachments/B/模型说明与状态转换核对.md": {
+      "bytes": 12810,
+      "sha256": "f9aa94c17f07f6ec6c46c97c7709a3117e6d361886323cca1a31478802af62cc"
+    },
+    "attachments/B/自查记录.md": {
+      "bytes": 3990,
+      "sha256": "96b731e6d8ae84e91e7e231d0caf7daf02bec382e813c6d0c0a9002d837c14af"
+    },
+    "attachments/B/附件索引.md": {
+      "bytes": 3486,
+      "sha256": "3d9252d8bd8afca84e900e5e96072899f6c691e6d2382dc5bc6db623683f2cd4"
+    },
+    "attachments/C/prototype/browser-check.cjs": {
+      "bytes": 8949,
+      "sha256": "2929a52e90a7c5a2da49fbfec6224148ba2b49003c57b7336c76014c152ce289"
+    },
+    "attachments/C/prototype/core.js": {
+      "bytes": 14195,
+      "sha256": "d0d39025582b12e69ea86435d992a20ee8e82658699de5605220532ce466e815"
+    },
+    "attachments/C/prototype/index.html": {
+      "bytes": 3431,
+      "sha256": "50d63d2e066ad33f8b23b96fb8ad86396ed3e6364bad38659b7975219044de32"
+    },
+    "attachments/C/prototype/style.css": {
+      "bytes": 4579,
+      "sha256": "6017a3d870c89fee5a6a38a21d62feb106409ec63afb84c8d9c7bfceb770e84a"
+    },
+    "attachments/C/prototype/ui.js": {
+      "bytes": 10737,
+      "sha256": "452f371d0248eb74f65735ef6496dfb1b306612dfa90a3c5daaa14cb345f6765"
+    },
+    "attachments/C/prototype/verify.cjs": {
+      "bytes": 14006,
+      "sha256": "dd7f74358c7c75ef2167ed05e0078f4ac455b904352f2ae6a8685b2229490687"
+    },
+    "attachments/C/prototype/walkthrough-check.cjs": {
+      "bytes": 2152,
+      "sha256": "7afc2b97fd43750dde2271845b80203e1a5a3b46c897cad366a90722bcbdf1d0"
+    },
+    "attachments/C/verification/01-发现物品.png": {
+      "bytes": 74140,
+      "sha256": "dcef332c9cc8bbdc5f7084fdb1e4b5d47c461a9cd2a398d80ddc1c695af319f0"
+    },
+    "attachments/C/verification/02-买方确认完成.png": {
+      "bytes": 64948,
+      "sha256": "34feb95a658ac0500c597a1f4415b4c7754909292d22cfe06fc21bd6e421b558"
+    },
+    "attachments/C/verification/03-异常终止.png": {
+      "bytes": 106755,
+      "sha256": "67c9ad0a1bfb4eed69699a73f7645395375a0e6f68e044d5f847bad7f5600fce"
+    },
+    "attachments/C/verification/04-手机宽度.png": {
+      "bytes": 61068,
+      "sha256": "e58808ddd079c2722daf2614ea793e1d58ccbf149c922c4c446596706993b1fb"
+    },
+    "attachments/C/verification/browser-failure.png": {
+      "bytes": 69781,
+      "sha256": "c0d817173df5e76177c5fafa6acb042b1c6168572a15c8f1d9efc8fadb1aa4db"
+    },
+    "attachments/C/verification/revision-20261022/01-发现物品.png": {
+      "bytes": 74140,
+      "sha256": "dcef332c9cc8bbdc5f7084fdb1e4b5d47c461a9cd2a398d80ddc1c695af319f0"
+    },
+    "attachments/C/verification/revision-20261022/02-买方确认完成.png": {
+      "bytes": 64953,
+      "sha256": "73f00d26f2d07da252c9a590781b4eab730435cf19638da98f75c6e9de7c4655"
+    },
+    "attachments/C/verification/revision-20261022/03-异常终止.png": {
+      "bytes": 106733,
+      "sha256": "c10f08181cb6e68f80391e3075ef52c8306c60080071e86981186c88f8067c84"
+    },
+    "attachments/C/verification/revision-20261022/04-手机宽度.png": {
+      "bytes": 61068,
+      "sha256": "e58808ddd079c2722daf2614ea793e1d58ccbf149c922c4c446596706993b1fb"
+    },
+    "attachments/C/verification/revision-20261022/05-未登记异常终止-待交付.png": {
+      "bytes": 106161,
+      "sha256": "8dd29b5c89df7fc0867990cd7f4fecfee0c8a2ef481b53ceaea21494959365b9"
+    },
+    "attachments/C/verification/revision-20261022/05-未登记异常终止-待卖方确认.png": {
+      "bytes": 106298,
+      "sha256": "c217d71dad8f0682a9558468f6902f1dc911674c6e9edc875794609a659b687a"
+    },
+    "attachments/C/verification/revision-20261022/05-未登记异常终止-报告交付但未登记.png": {
+      "bytes": 106178,
+      "sha256": "c70211b41120cc5b49133f0331e5813d1ef54798ae837136403df9cc5a985fb4"
+    },
+    "attachments/C/verification/revision-20261022/browser-check.cjs.before": {
+      "bytes": 6704,
+      "sha256": "6700188e3182398920f6b5a71cc4f195cfc94a8aed057fb796d5bdbd2aac0497"
+    },
+    "attachments/C/verification/revision-20261022/browser-failure.png": {
+      "bytes": 106797,
+      "sha256": "625f2fbe8a612ee64017d6d2b46d7b5f27a24b07f12ce10ad7066dc13dd1a7a1"
+    },
+    "attachments/C/verification/revision-20261022/ui.js.before": {
+      "bytes": 10678,
+      "sha256": "26890f2b7b33612edef3f485ed49fd0b37f78c0bc51d1dadc232048ffd9ea276"
+    },
+    "attachments/C/verification/revision-20261022/verify.cjs.before": {
+      "bytes": 13646,
+      "sha256": "c5664a7527c185d5fc73b39839635e4c6c89620c204979b036cd06e781ab3763"
+    },
+    "attachments/C/verification/revision-20261022/交付检查结果.json": {
+      "bytes": 438,
+      "sha256": "dc00a9ba17d306dfd3a6dfbf7fd992f94813e4b66580278ea594cdebcd442800"
+    },
+    "attachments/C/verification/revision-20261022/文件版本清单-修正前.json": {
+      "bytes": 14593,
+      "sha256": "ea9473900bb9ecbec429a945ab520c6f1db1864c9dec425ad69a27765ec691da"
+    },
+    "attachments/C/verification/revision-20261022/未登记异常终止-修正前.png": {
+      "bytes": 106797,
+      "sha256": "625f2fbe8a612ee64017d6d2b46d7b5f27a24b07f12ce10ad7066dc13dd1a7a1"
+    },
+    "attachments/C/verification/revision-20261022/程序验证结果.json": {
+      "bytes": 189135,
+      "sha256": "66435659a7acb5525cb6936a6ae99929a0b3aaddc65ba5e8ad7425c5e961f927"
+    },
+    "attachments/C/verification/revision-20261022/脚本复现检查.json": {
+      "bytes": 2669,
+      "sha256": "ca89ec579415501d45a4dd3eef9a536bd4d1654066c40b35971aef358db867c4"
+    },
+    "attachments/C/verification/revision-20261022/页面导出记录.json": {
+      "bytes": 7269,
+      "sha256": "2fb8ff6e35a2a11b42ee457d11faf8094ac0c92e917c3f17951bd76ac04f83bc"
+    },
+    "attachments/C/verification/revision-20261022/页面验证结果-修正前.json": {
+      "bytes": 1407,
+      "sha256": "60d0476db0fe3a1fbdf647cd8950b451fd7cbc8138374797a9071feed7545a56"
+    },
+    "attachments/C/verification/revision-20261022/页面验证结果.json": {
+      "bytes": 1365,
+      "sha256": "ff511652ee27643f89c679164d8b0c5c4fdcfde9734d8a9014a4204605a18800"
+    },
+    "attachments/C/verification/交付检查结果.json": {
+      "bytes": 852,
+      "sha256": "5961bb4cfc187254c2d268d13775e31b4dc526c7ab77e4a21ed13201add66610"
+    },
+    "attachments/C/verification/程序验证结果.json": {
+      "bytes": 181649,
+      "sha256": "eca8b8189540825a957b806c79e2193d198e284c0ddeb5a0c7d6ad8640d45c93"
+    },
+    "attachments/C/verification/页面导出记录.json": {
+      "bytes": 7267,
+      "sha256": "98c8aa742b5c2bf48883f6ec0f88a7c6b986c0f8739c353b3d7b4ba8b78c1492"
+    },
+    "attachments/C/verification/页面验证结果-首次.json": {
+      "bytes": 406,
+      "sha256": "a15db47d9a4f0086d6fab0d8457ad4026171e42c0621fb79e780721e24129d24"
+    },
+    "attachments/C/verification/页面验证结果.json": {
+      "bytes": 945,
+      "sha256": "0bdeeb8fd44d5187988c4695d24cb348ba6b3810871c86265d8efcebf2adfc20"
+    },
+    "attachments/C/verification/首次检查截图.png": {
+      "bytes": 69781,
+      "sha256": "c0d817173df5e76177c5fafa6acb042b1c6168572a15c8f1d9efc8fadb1aa4db"
+    },
+    "attachments/C/修订说明与审核交接.md": {
+      "bytes": 2798,
+      "sha256": "28199edc4b9ce586e8827ec467694d8d32c48a72e78b59e46e71801c470569df"
+    },
+    "attachments/C/关键AI交互与人工决定.md": {
+      "bytes": 4049,
+      "sha256": "a1c53565fb6083e0f261ed6033ebc973e46bdfe592f5d2ab70c1421cc405d9f7"
+    },
+    "attachments/C/原型范围与运行说明.md": {
+      "bytes": 4051,
+      "sha256": "211a732fb725d94bf0f3a22af80da44b7c6a86bd004c9b1789898476a4f0bede"
+    },
+    "attachments/C/原型验证记录.md": {
+      "bytes": 8120,
+      "sha256": "d1792fb3f2fb2228daff55c33b7c6c6a9ee017b3fa38a471ba04482eaee07161"
+    },
+    "attachments/C/场景数据与走查脚本.md": {
+      "bytes": 44887,
+      "sha256": "e0592f9e900775a4f742049e8e03f4042cada21b53ba4b370d6b0d96a84fcea4"
+    },
+    "attachments/C/文件版本清单.json": {
+      "bytes": 18478,
+      "sha256": "e1fe1658b3ccb49d6251e80ed693663b77c4b7b0d2006e8a8c91a438e0839612"
+    },
+    "attachments/C/自查记录.md": {
+      "bytes": 2772,
+      "sha256": "6c6a5e7314aa4c4388d8a3abe68390be60ad16b8a54d893e8dd6c7900020580b"
+    },
+    "attachments/C/输入版本.json": {
+      "bytes": 6923,
+      "sha256": "a6bb79393e1c77314d11034de20f35673b8f3510a91440ea0eab470d29bb1cbe"
+    },
+    "attachments/C/问题清单与复验.md": {
+      "bytes": 3839,
+      "sha256": "7d17695dc285c8b77343acbbf98db1e6eeb2951e16390e176bc3dbc5b8794b4d"
+    },
+    "attachments/C/附件索引.md": {
+      "bytes": 3553,
+      "sha256": "f6d0fc49a4e6ee571ca66198b401bcf5016d6f560d0b10f68398a28a1db8eeb7"
+    },
+    "attachments/D/CD副本附件/封面图.jpeg": {
+      "bytes": 32056,
+      "sha256": "7a5394f056e75013dc4531b8d908cb01406d684f1aeabb7d94a7d06e9471fa4b"
+    },
+    "attachments/D/CD副本附件/编写依据与核对记录.md": {
+      "bytes": 7735,
+      "sha256": "f604a9e6f1b362ce25c39243d7d61e31bb6632fe8c147308cbadf0d8cc9a2f85"
+    },
+    "attachments/D/CD副本附件/需求追踪明细.md": {
+      "bytes": 4459,
+      "sha256": "b1b7b0fe488828d786ff15492713340f0fd7f9ecd0602e0502bbd1c5c16671a4"
+    },
+    "attachments/D/任务约束与执行.md": {
+      "bytes": 2287,
+      "sha256": "a3fcbdf29ec7ce957d467234cd1b4eb1207192e50e1733e07d7abe38c8ce9260"
+    },
+    "attachments/D/修订说明与审核交接.md": {
+      "bytes": 1501,
+      "sha256": "734559fafc4f6c576bfb9dd331c00a14518d167b6f9180be0a31683cda69495f"
+    },
+    "attachments/D/关键AI交互与人工决定.md": {
+      "bytes": 5599,
+      "sha256": "31e6fda258817adb80ae37d8dc410e5ac9217986a817fbcdfb60e9b013d7be45"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/prompt.txt": {
+      "bytes": 33798,
+      "sha256": "9b7502412d2195f81cd4a15922973626d0360a020efb9ae04aa0b403282b2e0f"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round1.jsonl": {
+      "bytes": 16717,
+      "sha256": "258704fb9e099d892482351cd98ffa2ad6466d686900f78e97dd8ba0df6686cc"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round1.md": {
+      "bytes": 7964,
+      "sha256": "a643c4012a88b1043a4b8781c23b3e88f017646fe649629e8e154ef6d5d08db9"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round1.status.json": {
+      "bytes": 233,
+      "sha256": "c72aff1676c87cce87eab092bd47e75f4b2e69704d1cfb94b59de479458a0619"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round1.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round2.jsonl": {
+      "bytes": 6122,
+      "sha256": "b506706fff78650af156a2f30ae40d85f7d802fa37954ae1f9932092b36c3c15"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round2.md": {
+      "bytes": 2726,
+      "sha256": "8b6f9772f6b63ed5b8e9a900df2b587440123620ac68a644ccf3a7d9aa507230"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round2.prompt.txt": {
+      "bytes": 9825,
+      "sha256": "bdc0e92e0815472172881bfbcff5faf8451e9049178bb945ffb72bab3dbbc091"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round2.status.json": {
+      "bytes": 308,
+      "sha256": "a38d701c0812f9032edb5ed48ef7f5e5cb39dfcfec3be05ed14720b4e1675818"
+    },
+    "attachments/D/历史记录/A六角色讨论/admin/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/prompt.txt": {
+      "bytes": 33741,
+      "sha256": "a798041a8abc4b2ca8667c76738e7d8aed06331a071105887729018302b6a3e1"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round1.jsonl": {
+      "bytes": 17444,
+      "sha256": "4c2b9713daebe3d63d9d4c2bd70641d5051a2ea040153326a798913d5d3b107d"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round1.md": {
+      "bytes": 8571,
+      "sha256": "a83e76f944d9dd2d512456fe10b42e9b4f4a4c486ba32cbc5553b6f449ed6a73"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round1.status.json": {
+      "bytes": 233,
+      "sha256": "0f65e9cebf272eb49b22ab4d69ce0367e467c71fcab0d42dc3c1086cbf770818"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round1.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round2.jsonl": {
+      "bytes": 6424,
+      "sha256": "86a73b748df45639fe2c77942955ccb021b75a4a4a159c5c4102ce753333dbe5"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round2.md": {
+      "bytes": 2913,
+      "sha256": "595d7960cc856e54cc117c66873f6edeba4d15ea484e2dbc49ce3bb1435a7188"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round2.prompt.txt": {
+      "bytes": 7823,
+      "sha256": "eab1172273f7269828f9531f1133ad9ad5281c280ee14c26651a1e5362d2285b"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round2.status.json": {
+      "bytes": 308,
+      "sha256": "732834f226b9ecadf03b5ca748c5fb85197431f63907edf270aac0f410645eed"
+    },
+    "attachments/D/历史记录/A六角色讨论/buyer/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/prompt.txt": {
+      "bytes": 33822,
+      "sha256": "ac38cc7e036ec3c72cba62757d02ed87f6fea57d4341398ba7b8a0c0336f98f6"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round1.jsonl": {
+      "bytes": 12163,
+      "sha256": "9da8ea2b52d1473c9c33badbc25749c8c4db7d295d81078278500ee3bc108d3e"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round1.md": {
+      "bytes": 5665,
+      "sha256": "c0e1320afb6db6988f0c35a59f2c5fb920d4a527be9dc46a56b94034dd60b5b7"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round1.status.json": {
+      "bytes": 239,
+      "sha256": "5a963b9f0a24198b429cdb1f089118ad3727c0e2a9337329b37dca7ac17eef75"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round1.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round2.jsonl": {
+      "bytes": 6694,
+      "sha256": "cd8ecc11ced8e9f21c2873b5a0e9e4d0da47168eaabf30898b8e20ec32db861c"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round2.md": {
+      "bytes": 3015,
+      "sha256": "7c13b3e84ee4fe33b011760ca09ee87d93ce1f3e09e332ef8e4e58f9433257cc"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round2.prompt.txt": {
+      "bytes": 7869,
+      "sha256": "18c144b25c81053a8e25af71978537b9ed94c9973f20f9aeaf756b690ffc2db5"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round2.status.json": {
+      "bytes": 314,
+      "sha256": "b418bccf8684645949bf310caf24aeeb6362ceffc39c36b8e358ef6f3891b978"
+    },
+    "attachments/D/历史记录/A六角色讨论/campus_user/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/execution-check.json": {
+      "bytes": 2689,
+      "sha256": "06749b85550fd632c0d380f390e7008cf5cfa6d99fe305bdf2ec9d4721be5702"
+    },
+    "attachments/D/历史记录/A六角色讨论/input.md": {
+      "bytes": 30413,
+      "sha256": "2df44002b3ddf81f5d22f8be55bd9c59d83c88b778b707b78ef2404f585c9b8a"
+    },
+    "attachments/D/历史记录/A六角色讨论/manifest.json": {
+      "bytes": 2829,
+      "sha256": "255ebf61dde6d7a75561b2f34b7da4d83d160eeb7d42ea9d827af813bd56242a"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/prompt.txt": {
+      "bytes": 33807,
+      "sha256": "c7860369ef369e7bf02c21efdb195f67f567040ef8c8753baf209603eb8184d4"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round1.jsonl": {
+      "bytes": 14847,
+      "sha256": "3ff36cc7a9f54bf01e76acb8ee2a3fd47a608617f12d3fd0ffa6b1ad9b246700"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round1.md": {
+      "bytes": 7035,
+      "sha256": "b94c5b3e774cf00a775be6704340dabd6e3166ef2610c99d62abb029e4f3b95c"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round1.status.json": {
+      "bytes": 235,
+      "sha256": "be30d1cd76cafe763e3fcd3961234a9e41dd9f6673ddbfa24e51fc051b3c4a58"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round1.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round2.jsonl": {
+      "bytes": 8769,
+      "sha256": "5bedd3363f2c1e019bdc97e93a3d8f36b1e1a889ffada4dfd69fec73ea7e878d"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round2.md": {
+      "bytes": 4024,
+      "sha256": "b10f0a54dd04e3eab34a1a00222618ca311bacb4e6682b889a2ff21f42e96a16"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round2.prompt.txt": {
+      "bytes": 8093,
+      "sha256": "b4767421a0059111a7b56962f33e264ed5e0c215f80368f1dc5f080efa69f4a2"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round2.status.json": {
+      "bytes": 310,
+      "sha256": "7f663a0302fa479a1570c6745db8a3a6b7583ee3f5c8b94fba40af002513012e"
+    },
+    "attachments/D/历史记录/A六角色讨论/parties/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/readonly.patch.yml": {
+      "bytes": 864,
+      "sha256": "3bc4e07449f7ab6784898482e8ef7fed23af6eb760e240961a0209cbbfca1cda"
+    },
+    "attachments/D/历史记录/A六角色讨论/round1.status.json": {
+      "bytes": 1579,
+      "sha256": "7f127d0f15cd96998a837083bcce7805c3a122c8170934b1779cb50847135daa"
+    },
+    "attachments/D/历史记录/A六角色讨论/round2.status.json": {
+      "bytes": 2065,
+      "sha256": "7768e73ae90fe21e186b77d0625ea6320269b1ba16fe99d2eb87f81ef7718a50"
+    },
+    "attachments/D/历史记录/A六角色讨论/run_roles.py": {
+      "bytes": 20256,
+      "sha256": "52bf25cc70959dbcacc6eb196450dc76470041dbb4479e568417ec6da3350cb7"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/prompt.txt": {
+      "bytes": 33753,
+      "sha256": "5fa481f0deba65c5cd6932d820a0129574273ea9afa388688e08019e1d7cc6e2"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round1.jsonl": {
+      "bytes": 14102,
+      "sha256": "c91f985274ff6dc6f01b30ee2af55b25cdacc2d1b4e1c24c254f2fe2f2b0bfaf"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round1.md": {
+      "bytes": 6636,
+      "sha256": "923c3f2ee7d34b47fc4b9567a0a6b012795ed6df6ea19fe9b39d94ee1f66aea8"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round1.status.json": {
+      "bytes": 234,
+      "sha256": "0b458e80706315d794052437832652c77c6d43de7e23d8f03aa9bf02cb18f71f"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round1.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round2.jsonl": {
+      "bytes": 5609,
+      "sha256": "5f4fec27dcf8bd2d5371a59b622a0104d33567b3dd520e27aae18b2367f13421"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round2.md": {
+      "bytes": 2479,
+      "sha256": "19a30fe292914aa96aa96a8cd4216975024d735af90d582425c4dc153e14b09f"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round2.prompt.txt": {
+      "bytes": 8327,
+      "sha256": "21f65ff1f94241bde9984c799f3a1ac40aee5f21e22e81b5a6c4729830ebd60c"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round2.status.json": {
+      "bytes": 309,
+      "sha256": "473dd3644b181888628aed9fef30fcd2e9ef612afc891d7adebb859cf073ac6d"
+    },
+    "attachments/D/历史记录/A六角色讨论/seller/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/prompt.txt": {
+      "bytes": 33750,
+      "sha256": "b0ed73d819bdf552fdfc57ef1e18e4262fdd72f55ab70ecd288f804c3def6940"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round1.jsonl": {
+      "bytes": 13919,
+      "sha256": "6849904b6e696ed21da63039f437cea16577cde13bee18fa96ce72d90a855265"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round1.md": {
+      "bytes": 6576,
+      "sha256": "55806f27396db7983b5c05a179b20a8f636644f2f58e6538ce253f58d226e6a7"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round1.status.json": {
+      "bytes": 235,
+      "sha256": "5b6dd3484a30a25b8a2b6ff539ae14a0466aeb33298e049dc657ec3f0e2fa070"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round1.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round2.jsonl": {
+      "bytes": 6096,
+      "sha256": "35a5cc1045a71d5048cbcd3c4a0c07f7f7e26c517a411bb9c108f090e42826c6"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round2.md": {
+      "bytes": 2722,
+      "sha256": "d5dfd45243b68bc7c1e34ae45596f615dfd73ea3ae1106d4511a942fb4725226"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round2.prompt.txt": {
+      "bytes": 9764,
+      "sha256": "821fb263dc0285568317586d18232527e21e29f1561aa0b716b65692254157de"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round2.status.json": {
+      "bytes": 310,
+      "sha256": "aef8497c22d34e3d859b84fdf81b14e70cec44b877c04ab6b60da4a2b7cf7302"
+    },
+    "attachments/D/历史记录/A六角色讨论/visitor/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/历史记录/A六角色讨论/讨论汇总.md": {
+      "bytes": 15795,
+      "sha256": "83467915cfef911d71e0a5c9c85550ab2d825fc14dd24904d22411e4f1431870"
+    },
+    "attachments/D/历史记录/B轮次决定_20261021.md": {
+      "bytes": 2835,
+      "sha256": "4a22350ed5a7d1b679a629cd94bfec107e32fae8207fdee5cbcbe8a1d855c5ab"
+    },
+    "attachments/D/历史记录/C质量报告_20261021.docx": {
+      "bytes": 1595986,
+      "sha256": "33026253a62106c2ff128e65cbd0c33043b5e2c6138318349f8236ae8e71954f"
+    },
+    "attachments/D/历史记录/C质量报告_20261021.md": {
+      "bytes": 7203,
+      "sha256": "27e0438b81deddd3e889c16b6b717f5ed65a0df0f5556e8f0bffda30aaad39dc"
+    },
+    "attachments/D/历史记录/C质量报告_20261021.pdf": {
+      "bytes": 152145,
+      "sha256": "6305894a8db7fc35b979e843a42465b035942967eb853e946d86b856e03baf01"
+    },
+    "attachments/D/历史记录/D章节工作稿/D章节补充稿.docx": {
+      "bytes": 1601878,
+      "sha256": "b4ca8b4b9df6a21027790c09d4562488c4423726ee05a234ea635b70f8d2a7a6"
+    },
+    "attachments/D/历史记录/D章节工作稿/D章节补充稿.md": {
+      "bytes": 18345,
+      "sha256": "3b2f3b0937384be142a55a9d533ce408e55febdd5bbeea97690a9a36f035efc3"
+    },
+    "attachments/D/历史记录/D章节工作稿/D章节补充稿.pdf": {
+      "bytes": 195949,
+      "sha256": "43fa1e11bd10bbcb369f3f5e57c93c3a01904af51ec1e021124623e259426346"
+    },
+    "attachments/D/历史记录/D章节工作稿/完成核对.json": {
+      "bytes": 1473,
+      "sha256": "84de076b49716ea5d40c9364beb7069c0c79f93fde424c1c0cddbf0902a00f44"
+    },
+    "attachments/D/历史记录/D章节工作稿/构建工作稿.py": {
+      "bytes": 17699,
+      "sha256": "55a3cf12d46172b275c7ed36aabb186e94f13b56dfb14edfd60cdf645dedb427"
+    },
+    "attachments/D/历史记录/D章节工作稿/编写前仓库快照.json": {
+      "bytes": 14551,
+      "sha256": "0e9c494b4aad32354fc167e47e7d10024eace939de423936940781e0bc99e9f1"
+    },
+    "attachments/D/历史记录/D章节工作稿/调整格式与措辞.py": {
+      "bytes": 13640,
+      "sha256": "df9019e7a117cd3b1a7ddb4cac84f6ab04482498b6a4e93ab1748325d0e3d4e0"
+    },
+    "attachments/D/历史记录/D章节工作稿/阅读说明.md": {
+      "bytes": 1431,
+      "sha256": "81cce7b72b43691d21c70b84530de282a8e9d4d4bf809835d375ed6c428d918e"
+    },
+    "attachments/D/历史记录/D章节工作稿/附件/编写依据与核对记录.md": {
+      "bytes": 7669,
+      "sha256": "7b5970d69a630606f19659e5ec5bcd3321e1ec6dbfa17ca837c191567cfb5048"
+    },
+    "attachments/D/历史记录/D章节工作稿/附件/需求追踪明细.md": {
+      "bytes": 4459,
+      "sha256": "b1b7b0fe488828d786ff15492713340f0fd7f9ecd0602e0502bbd1c5c16671a4"
+    },
+    "attachments/D/历史记录/D章节工作稿/需求规格说明书_补入D章节预览.md": {
+      "bytes": 82646,
+      "sha256": "b8571fe252b5d7fffea8a818dc78d2e891eda15ca5c8caf6730b820ea06e4c4a"
+    },
+    "attachments/D/历史记录/D配套材料_阅读说明.md": {
+      "bytes": 1903,
+      "sha256": "c33b793a2cd3fab444c6ec86a1a7a4aec1f2440bb0e3cc337e342a7a4d0e99b8"
+    },
+    "attachments/D/历史记录/D阶段完成核对_20261022.json": {
+      "bytes": 14282,
+      "sha256": "8812f2cd271404771ad8b8b490de8d4b3a9d0b0c7b6ee2bed93292144735e63b"
+    },
+    "attachments/D/历史记录/仓库原README.md": {
+      "bytes": 1468,
+      "sha256": "7fb7f8d24198418fbb70b9b9dd9b66074eee6be96b8a9b4f5ab9b8d68e886e2c"
+    },
+    "attachments/D/历史记录/补充引用/tmp/c_v2_review_20261022/verification/revision-20261022/程序验证结果.json": {
+      "bytes": 189135,
+      "sha256": "7408129da33bb9a69077501fdb943bfe2a531cb5d4e20acddd5bf64cc104dda5"
+    },
+    "attachments/D/历史记录/补充引用/tmp/c_v2_review_20261022/verification/revision-20261022/脚本复现检查.json": {
+      "bytes": 2669,
+      "sha256": "81a332ad9a9f720c290b836a4275567978c936c86f824558e06ab2f0e32b07b1"
+    },
+    "attachments/D/双视角审查/business/round1.jsonl": {
+      "bytes": 14811,
+      "sha256": "479df51ef1ff6199474bbb12be8f20c7f48a936610d5a7820d58cf1d2c3779c5"
+    },
+    "attachments/D/双视角审查/business/round1.md": {
+      "bytes": 7034,
+      "sha256": "9e23cd429fc1f1d7406a1671c3f2c8453b54b1785b9b20a172785cb0c707542a"
+    },
+    "attachments/D/双视角审查/business/round1.prompt.txt": {
+      "bytes": 157532,
+      "sha256": "b149233b6ddfcfb3aa9524faee9055f98828a307ae45644eebe6f583025a9f6d"
+    },
+    "attachments/D/双视角审查/business/round1.status.json": {
+      "bytes": 257,
+      "sha256": "f085f52e719922040cb0e7c7bb9d8c1bc9f4b5c1da24588fd8cd3f6baf69a826"
+    },
+    "attachments/D/双视角审查/business/round1.stderr.log": {
+      "bytes": 222,
+      "sha256": "d0bbbe7700f39a7ab564cfbe6425328b73e22889207a35a5a384d9385625b64a"
+    },
+    "attachments/D/双视角审查/business/round2.jsonl": {
+      "bytes": 10010,
+      "sha256": "0817f9f64017a31e0d9b3067c85f14bd27fa83f2ece41684addd26f29c8d87f6"
+    },
+    "attachments/D/双视角审查/business/round2.md": {
+      "bytes": 4666,
+      "sha256": "b04ead31b11865c61ef149cab0d4c0b191d1a941fe3663623a1d07f7645ad5e3"
+    },
+    "attachments/D/双视角审查/business/round2.prompt.txt": {
+      "bytes": 10215,
+      "sha256": "1f0777e4aae955a19c4ca068e929719398528d4dda43de681df21c22d11bc6a3"
+    },
+    "attachments/D/双视角审查/business/round2.status.json": {
+      "bytes": 257,
+      "sha256": "c647e84e524231d778627e60b726e18d8784d488cd49c7e4d58ac7c8d8e18608"
+    },
+    "attachments/D/双视角审查/business/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/双视角审查/round1.status.json": {
+      "bytes": 564,
+      "sha256": "635c88f2167c830c3725d4b9bae23e69feb4397c18009d05ab8bf6929ec2c09f"
+    },
+    "attachments/D/双视角审查/round2.status.json": {
+      "bytes": 564,
+      "sha256": "d697ded15dfec3e5464723cfe85bb0c14eba1f7c33547e2f31773071c0f81ca5"
+    },
+    "attachments/D/双视角审查/test/round1.jsonl": {
+      "bytes": 17347,
+      "sha256": "c43f6a7de6b1bac57c752b10c25285d0cf423bd021365ac69c89417bc91accab"
+    },
+    "attachments/D/双视角审查/test/round1.md": {
+      "bytes": 8423,
+      "sha256": "797e6762a8aef70a0aacce20a47913647142112695f3d33bdda44bf68c617f8c"
+    },
+    "attachments/D/双视角审查/test/round1.prompt.txt": {
+      "bytes": 157485,
+      "sha256": "94f140334a6b15e746f3a8e8fc5df737fb00f2dbf088a6c6e95bf69ab50c2cd8"
+    },
+    "attachments/D/双视角审查/test/round1.status.json": {
+      "bytes": 253,
+      "sha256": "9288d20d9a384443ac256ca12568bd670897f782d35bb32ec18bdf9835714339"
+    },
+    "attachments/D/双视角审查/test/round1.stderr.log": {
+      "bytes": 222,
+      "sha256": "d0bbbe7700f39a7ab564cfbe6425328b73e22889207a35a5a384d9385625b64a"
+    },
+    "attachments/D/双视角审查/test/round2.jsonl": {
+      "bytes": 11016,
+      "sha256": "af1367776c0b784e00adb721915fed45145ec890cb5108c271d9e989d13572b7"
+    },
+    "attachments/D/双视角审查/test/round2.md": {
+      "bytes": 5171,
+      "sha256": "a346869c091d8c36693bf5b64b0d2796011af35e868317475452e1871ff51699"
+    },
+    "attachments/D/双视角审查/test/round2.prompt.txt": {
+      "bytes": 9111,
+      "sha256": "8f106b9fb66f79e9667689f2adc5f92965ce7e5ae2291b392d0c3f1fc208052e"
+    },
+    "attachments/D/双视角审查/test/round2.status.json": {
+      "bytes": 253,
+      "sha256": "8b0b051c45808c1cbd890c1b618534f47ec4e7f44a74057413937c5f39d61642"
+    },
+    "attachments/D/双视角审查/test/round2.stderr.log": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "attachments/D/双视角审查/同版输入.txt": {
+      "bytes": 155102,
+      "sha256": "e0aff5bcd912b630c8d87b9382784ea75b65e71576fe180801d8ef2d533bcccc"
+    },
+    "attachments/D/双视角审查/统管复核与取舍.md": {
+      "bytes": 2710,
+      "sha256": "5f7b12e6e29eafacd627b3074299fb2ca3e1b70194d87dc3c5105a6ca693f6fc"
+    },
+    "attachments/D/成员贡献供稿.md": {
+      "bytes": 1817,
+      "sha256": "f1795251aef741ddf82d7020b0e73c7c6af2924e0218d746b4a9a7fce668a623"
+    },
+    "attachments/D/执行复核/D独立反例结果.json": {
+      "bytes": 89458,
+      "sha256": "3e115136ba031e96834078cf6614c1df2d8dce3a8976a6c59ab239e503d42ae4"
+    },
+    "attachments/D/执行复核/d-adversarial.cjs": {
+      "bytes": 7547,
+      "sha256": "7ff5e0e2246b385f1433fff65fb0f285ac2252261aa981358e5f7898d33d6485"
+    },
+    "attachments/D/执行复核/prototype/browser-check.cjs": {
+      "bytes": 8949,
+      "sha256": "2929a52e90a7c5a2da49fbfec6224148ba2b49003c57b7336c76014c152ce289"
+    },
+    "attachments/D/执行复核/prototype/core.js": {
+      "bytes": 14195,
+      "sha256": "d0d39025582b12e69ea86435d992a20ee8e82658699de5605220532ce466e815"
+    },
+    "attachments/D/执行复核/prototype/index.html": {
+      "bytes": 3431,
+      "sha256": "50d63d2e066ad33f8b23b96fb8ad86396ed3e6364bad38659b7975219044de32"
+    },
+    "attachments/D/执行复核/prototype/style.css": {
+      "bytes": 4579,
+      "sha256": "6017a3d870c89fee5a6a38a21d62feb106409ec63afb84c8d9c7bfceb770e84a"
+    },
+    "attachments/D/执行复核/prototype/ui.js": {
+      "bytes": 10737,
+      "sha256": "452f371d0248eb74f65735ef6496dfb1b306612dfa90a3c5daaa14cb345f6765"
+    },
+    "attachments/D/执行复核/prototype/verify.cjs": {
+      "bytes": 14006,
+      "sha256": "dd7f74358c7c75ef2167ed05e0078f4ac455b904352f2ae6a8685b2229490687"
+    },
+    "attachments/D/执行复核/prototype/walkthrough-check.cjs": {
+      "bytes": 2152,
+      "sha256": "7afc2b97fd43750dde2271845b80203e1a5a3b46c897cad366a90722bcbdf1d0"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/01-发现物品.png": {
+      "bytes": 71046,
+      "sha256": "acd9035928928a18b493bb59029644903b548bdd0fd318ddfc2ce2935179000b"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/02-买方确认完成.png": {
+      "bytes": 61736,
+      "sha256": "de123753c4af0fa2c83faffc849614116177e9c2e70c4212e3fc67899595315b"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/03-异常终止.png": {
+      "bytes": 95107,
+      "sha256": "9b7fae1ac84eaeab0b979139efb62b71fb62c337cf636adc7bb5e5043cc3f742"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/04-手机宽度.png": {
+      "bytes": 57159,
+      "sha256": "ec4be87c2341fc784aa76832c042223e95c663bb9f4fe5f69f96c35056237543"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/05-未登记异常终止-待交付.png": {
+      "bytes": 97294,
+      "sha256": "ee2dd64fabff99d811588bb65179da15b281c20b9ab672c7cc235cd28eb5f672"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/05-未登记异常终止-待卖方确认.png": {
+      "bytes": 97437,
+      "sha256": "beda3419f71b7304e9104d43afc055f379f23ef058970ca59a873b8c2f9eab75"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/05-未登记异常终止-报告交付但未登记.png": {
+      "bytes": 97313,
+      "sha256": "ff0b43f5c1ad665f03b9c324f4338667f1b12a35d75b776dc8ac3bf01954f6f6"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/程序验证结果.json": {
+      "bytes": 189135,
+      "sha256": "2b851cbb01b6cddadd74939c5725ab70022ab081ba86eba86186833b3d6057c7"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/脚本复现检查.json": {
+      "bytes": 2669,
+      "sha256": "49f2a3d1fb231571ee67521de1a3f402b183431ce402cab8ac0aad1b0b574018"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/页面导出记录.json": {
+      "bytes": 7269,
+      "sha256": "c09958cb9c2ea03c1f711ae29824097b5049b5795e67de69ec6e24bb7b4d6b22"
+    },
+    "attachments/D/执行复核/verification/revision-20261022/页面验证结果.json": {
+      "bytes": 1364,
+      "sha256": "8c212ea56f34924285b3801cb931c4e6c05d2f45cd651580cac68daa20b7fdce"
+    },
+    "attachments/D/执行复核/场景数据与走查脚本.md": {
+      "bytes": 44887,
+      "sha256": "e0592f9e900775a4f742049e8e03f4042cada21b53ba4b370d6b0d96a84fcea4"
+    },
+    "attachments/D/执行复核/复核说明.md": {
+      "bytes": 2208,
+      "sha256": "38690e8413421159e9b50b95a07449bb7afecda5a050892a3dee979e89e40a0e"
+    },
+    "attachments/D/版本与检查/导出任务.json": {
+      "bytes": 1559,
+      "sha256": "0b8f882b1998d3e5b6905cb56866b787c6682444557d98d8d7adc64044179638"
+    },
+    "attachments/D/版本与检查/导出检查结果.json": {
+      "bytes": 11023,
+      "sha256": "b8d080eedf67e1f02f6ee0f5c25db1b26622c347e146842b3b4f96ca8034ad9c"
+    },
+    "attachments/D/版本与检查/编写前仓库快照.json": {
+      "bytes": 14551,
+      "sha256": "0e9c494b4aad32354fc167e47e7d10024eace939de423936940781e0bc99e9f1"
+    },
+    "attachments/D/版本与检查/输入版本.json": {
+      "bytes": 2986,
+      "sha256": "ee4f1d86b0d683487092353f9fe43dac9ae2434cee6c9a0114863ec4e2fe6c4a"
+    },
+    "attachments/D/版本与检查/链接核对.json": {
+      "bytes": 15422,
+      "sha256": "b0fc4b836b78e6142511085113b36c95899e9c3367c734b6add949f8822d3f07"
+    },
+    "attachments/D/独立复核记录.docx": {
+      "bytes": 70751,
+      "sha256": "e869fe908dfc394ffaccb800c6a4fefb23fb2274efee4284ee5a2fe3f6a7cb39"
+    },
+    "attachments/D/独立复核记录.md": {
+      "bytes": 5886,
+      "sha256": "a7ae3228f20863a511ce73aac0933584bff07bb83fe7019189abc8ba53715f45"
+    },
+    "attachments/D/独立复核记录.pdf": {
+      "bytes": 271203,
+      "sha256": "373e630368bef13038f82a68284970397115984de14c82701d953d6bc49959fb"
+    },
+    "attachments/D/给C的修订交接.md": {
+      "bytes": 3060,
+      "sha256": "820583d5b68bc9a2539beb82c60a6cd06ac470f6c020aa7e98d6de14286b9764"
+    },
+    "attachments/D/编写依据与核对记录.md": {
+      "bytes": 7900,
+      "sha256": "0bca24a734cedeb64e70fd82333eb523818d9c90a2c513292745a3764cd1a3ea"
+    },
+    "attachments/D/要求与输入/三份文档及附件要求.png": {
+      "bytes": 77319,
+      "sha256": "f72076288f4c3fd22099db08c977adf75f7941be50365203c5869d0c76116d97"
+    },
+    "attachments/D/要求与输入/学生需求分析与AI智能体使用验证报告.md": {
+      "bytes": 33009,
+      "sha256": "83a7cf00244652fd836f5b263fd6db84085f1873a2bf3067955be28c10bb8ee1"
+    },
+    "attachments/D/问题处理与复核.md": {
+      "bytes": 4619,
+      "sha256": "b177da9467ddd70c3ff192a7ae6e63dfaae5c13bec005fde33c3aba14f3ffc30"
+    },
+    "attachments/D/附件索引.md": {
+      "bytes": 3658,
+      "sha256": "6eef0de077cb763fa6487951260a5de95a5e6eea5751d17fe3bcfe397f13dae6"
+    },
+    "attachments/D/需求追踪明细.md": {
+      "bytes": 4508,
+      "sha256": "42b406d688fe3385148b445d52cd6af818ce8d0464c105ad7696372bc0da901b"
+    },
+    "attachments/交付清单.md": {
+      "bytes": 667,
+      "sha256": "3821658b0cff0ee6a0bbdb90d00d48daf485a024b3cc372f8d784db8481c0c9d"
+    },
+    "attachments/总证据索引.md": {
+      "bytes": 8761,
+      "sha256": "0beaf8c48941326edff3de75ff9f6eba7d3b2218dd388e7fb2961e192170478d"
+    },
+    "documents/.gitkeep": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "documents/AI智能体使用验证报告.docx": {
+      "bytes": 66134,
+      "sha256": "f29b9f246f5d606828a64862e9855b5fe2a645723a381192562cd49644b4f28d"
+    },
+    "documents/AI智能体使用验证报告.md": {
+      "bytes": 12296,
+      "sha256": "381308715ebf67de834214951f73d4ba48ef01f74e0170495ea6b96bfff04cea"
+    },
+    "documents/AI智能体使用验证报告.pdf": {
+      "bytes": 300456,
+      "sha256": "63a213a4f2a214ce09bfc08748969c337686c44d0a478dab44120c726b73bcac"
+    },
+    "documents/校园二手交易与物品流转平台需求规格说明书.docx": {
+      "bytes": 1690895,
+      "sha256": "76b8b09f4bc9b3fb8cb38bddb184b9e271b97237ba6880f4977227811309d182"
+    },
+    "documents/校园二手交易与物品流转平台需求规格说明书.md": {
+      "bytes": 78819,
+      "sha256": "2e6b9607525a572533ff4d16097dd93c39ecc462373acd44aa22474b3728e07e"
+    },
+    "documents/校园二手交易与物品流转平台需求规格说明书.pdf": {
+      "bytes": 1882061,
+      "sha256": "93c958a93f17ef942d1f8076f150182874a6bbb340a83ad00b0eb1bf3722efb0"
+    },
+    "documents/需求分析质量验证报告.docx": {
+      "bytes": 64020,
+      "sha256": "c7a24860e11cc43926667eb059860e7257d48baa4df637c8ada7b69cb7a8aa2c"
+    },
+    "documents/需求分析质量验证报告.md": {
+      "bytes": 9438,
+      "sha256": "e2619c99ca6851590eed7b2e7cd0d9a5cc1a6561e9c11747cb59056d28d43507"
+    },
+    "documents/需求分析质量验证报告.pdf": {
+      "bytes": 301091,
+      "sha256": "f404f6b356fb3e05a3d66e6a690edac48ef6da723a89b4da499ae44a168a010b"
+    },
+    "initialization/docs/提交要求对照.md": {
+      "bytes": 12757,
+      "sha256": "a479d85de2aaaa5d7e5048aaece624b6d4715ac209dee625f1394daae907a080"
+    },
+    "initialization/docs/文档格式规范.md": {
+      "bytes": 3463,
+      "sha256": "c93babb85f4aced57c154136308e493d43c6126256ed2bd58c05a92c80038989"
+    },
+    "initialization/skills/README.md": {
+      "bytes": 1883,
+      "sha256": "e36a3bd155793693f581ee83bce203b09010dd022f54a1c6018538a37c457afc"
+    },
+    "initialization/skills/req-a-spec/SKILL.md": {
+      "bytes": 5936,
+      "sha256": "f8e3298ecc595c65f0977c76a9e1d28b7dcaf659364324c919cd221dbf7b88a0"
+    },
+    "initialization/skills/req-b-model/SKILL.md": {
+      "bytes": 5533,
+      "sha256": "19c0157510148ee4ac040028fefe1d91540cbb4de41c284d883a4e9096ecf13a"
+    },
+    "initialization/skills/req-c-prototype/SKILL.md": {
+      "bytes": 7399,
+      "sha256": "f4152b9c8668ecebe4228454f94e3022d6514285065eb264aac212edd686a277"
+    },
+    "initialization/skills/req-d-verify/SKILL.md": {
+      "bytes": 6647,
+      "sha256": "5a41eb3c05179cc3db3dcdad3a6bf8cb5eecbb7ed28f7f990e3081e9f7f8c31a"
+    },
+    "initialization/skills/共同大纲.md": {
+      "bytes": 28606,
+      "sha256": "e10ece86e5c87efe3143c4b73dd4c8c5f13db4d20c794667b7f4af8876ed346b"
+    },
+    "initialization/skills/协作协议.md": {
+      "bytes": 12596,
+      "sha256": "9a9f20381ea91de3120113fffb401e48534472342ffae0c7a6fa5e5307061b69"
+    }
+  },
+  "hash_basis": "Git index blob content (before checkout line-ending conversion); excludes this manifest."
+}
